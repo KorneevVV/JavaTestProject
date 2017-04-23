@@ -1,4 +1,4 @@
-package com.niifarap.testcase1.model;
+package testcase1;
 
 public class InputData {
 

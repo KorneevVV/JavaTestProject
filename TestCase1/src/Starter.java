@@ -1,6 +1,6 @@
-package com.niifarap.testcase1;
+package testcase1;
 
-import com.niifarap.testcase1.model.InputData;
+import InputData;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
