@@ -1,0 +1,31 @@
+﻿https://github.com/login?return_to=%2Fjoin%3Fsource%3Dheader-home
+
+//*[@id="login_field"] - login field
+
+//*[@id="password"] - password
+
+//*[contains(@value,'Sign in')] - sign in
+
+next page
+
+//*[contains(@href,'/AutoTest12/AutoTest')] - repository
+
+next page
+
+//*[contains(@href,'/AutoTest12/AutoTest/settings')] - Settings
+
+next page
+
+//*[contains(@href,'/settings/collaboration')] - Collaborators
+
+next page
+
+//*[@id='search-member'] - input form
+
+//*[contains(@class,'add-new-collab')] - add new collaborator button
+
+//*[@id='collaborators']/ul[(last())]/li - last member of collaborators
+
+
+
+
