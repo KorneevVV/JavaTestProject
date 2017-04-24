@@ -1,25 +1,20 @@
+/**
+ * Created by kracoz on 18.04.2017.
+ */
+
 import java.io.*;
 import java.util.Map;
 import java.util.TreeMap;
 
-/**
- *  Создать файл input.txt и поместить в него фрагмент английского текста. Создать
- класс Lexicon.java так, что при выполнении команды java Lexicon input.txt в том же
- каталоге появляется файл lexicon.txt со статистикой использованных слов. Пример:
- A - 50
- The - 100
- Abbat - 1
- boy - 3
- boys - 4
- (Слова отсортировать в алфавитном порядке). По желанию учесть формы
- множественного числа (т.е. в примере выше д.б. boy - 7)
- */
+
 public class Lexicon {
 
     public static void main(String[] args) throws IOException {
         String text = readTextFile(args[0]);
         Map<String,Integer> result = lexicon(text);
         writeLexiconResultFile(result);
+        int countParagraph = countParagraph(args[0]);
+        writeCountParagraphResultFile(countParagraph);
     }
 
     public static String readTextFile(String file) throws IOException {
@@ -62,6 +57,36 @@ public class Lexicon {
         return result;
     }
 
+    public static int countParagraph(String file) throws IOException {
+        int count = 0;
+        File inputFile = new File(file);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(inputFile)));
+        String text;
+
+        while ((text = reader.readLine()) != null) {
+            if (!text.equals("")) {
+                int c = text.charAt(0);
+                count += ( c == 13) ? 1:0;
+            } else {
+
+                count++;
+                if (reader.ready()) {
+                    while ((reader.readLine()).equals("")){
+                        if(!reader.ready()) {
+                            count--;
+                            break;
+                        }
+                    }
+                }else count--;
+
+            }
+        }
+        reader.close();
+        if(count >= 0 ) count++;
+        return count;
+    }
+
+
     public static void writeLexiconResultFile(Map<String,Integer> result) throws IOException {
 
         File  outputFile = new File("lexicon.txt");
@@ -72,6 +97,17 @@ public class Lexicon {
             bw.write(entry.getKey() + " - " + entry.getValue());
             bw.newLine();
         }
+        bw.close();
+    }
+    public static void writeCountParagraphResultFile(int result) throws IOException {
+
+        File  outputFile = new File("countParagraph.txt");
+        outputFile.createNewFile();
+
+        BufferedWriter bw = new BufferedWriter(new FileWriter(outputFile));
+
+        bw.write("Колличество абзацев " + result);
+        bw.newLine();
         bw.close();
     }
 
@@ -85,4 +121,5 @@ public class Lexicon {
         if ( (c >= 65) && (c <= 90) )  return (char)(c + 32); // A-Z to a-z
         return c;
     }*/
+
 }
