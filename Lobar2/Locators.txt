@@ -1,0 +1,45 @@
+1 pages vk.com
+
+//input[@id='index_email'] find login: 89169577765
+
+
+//input[@id="index_pass"] find pass: Сложныйпароль
+
+
+//button[@id='index_login_button'] click button
+
+
+
+//input[@id="ts_input"]   - locator search or   
+//input[@aria-label="Поиск"]
+
+
+2 pages https://vk.com/search?c%5Bq%5D=%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B5%D0%B2%20%D0%92%D0%BB%D0%B0%D0%B4&c%5Bsection%5D=auto
+
+
+//a[@class='ui_rmenu_item _ui_item_people search_menu_people']    button Люди or
+//a[@class='ui_rmenu_item _ui_item_people search_menu_people']/span
+
+
+
+3 pages https://vk.com/search?c%5Bq%5D=%D0%9A%D0%BE%D1%80%D0%BD%D0%B5%D0%B5%D0%B2%20%D0%92%D0%BB%D0%B0%D0%B4&c%5Bsection%5D=people
+
+
+//div[@id="cCountry"]/descendant::input[@class="selector_input"]   выбор страны клик
+
+
+//li[contains(.,"Россия")]   выбор Россия
+
+
+
+//div[@id="cCity"]/descendant::input[@class="selector_input"] Выбор города
+
+//li[contains(.,"Москва")] выбор Москва
+
+
+
+//div[@id="results"]/div[1]  есть хотя бы один пользователь
+
+
+Кнопка добавить в друзья    [contains(.,"Добавить в друзья")]  
+//div[@class="people_row search_row clear_fix"][1]/div[@class='controls']
