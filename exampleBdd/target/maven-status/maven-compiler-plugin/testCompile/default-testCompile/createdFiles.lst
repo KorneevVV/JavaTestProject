@@ -1,0 +1,5 @@
+ru\aplana\steps\DefinitionSteps.class
+ru\aplana\pages\githubLogin.class
+ru\aplana\steps\serenity\EndUserSteps.class
+ru\aplana\AcceptanceTestSuite.class
+ru\aplana\pages\githubLogin$1.class
