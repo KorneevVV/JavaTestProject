@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.aplana.AcceptanceTestSuite" time="0.108" tests="11" errors="0" skipped="6" failures="0">
+  <properties>
+    <property name="idea.version" value="2017.1.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\exampleBdd"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\exampleBdd"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\USERrr\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2017.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Google\Chrome;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;&quot;C:\Program Files\Java\jdk1.8.0_111\bin&quot;;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\maven\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\USERrr"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="USERrr"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2017.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2017.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.1.1 install -Dwebdriver.chrome.driver=D:\chromedriver.exe"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="webdriver.chrome.driver" value="D:\chromedriver.exe"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2017.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.022"/>
+  <testcase name="[PENDING] Given the user is on the Wikionary home page" classname="[PENDING] Given the user is on the Wikionary home page" time="0">
+    <skipped/>
+    <system-out><![CDATA[
+Running story stories/consult_dictionary/LookupADefinition.story
+Lookup a definition
+(stories/consult_dictionary/LookupADefinition.story)
+Narrative:
+In order to talk better
+As a n English student
+I want to look up word definitions
+Scenario: Looking up the definition of 'apple'
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.jbehave.embedders.monitors.ReportingEmbedderMonitor - 1248234350story running with path stories/consult_dictionary/LookupADefinition.story
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Lookup a definition
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Looking up the definition of 'apple'
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="[PENDING] When the user looks up the definition of the word &apos;apple&apos;" classname="[PENDING] When the user looks up the definition of the word &apos;apple&apos;" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given the user is on the Wikionary home page (PENDING)
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="[PENDING] Then they should see the definition &apos;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&apos;" classname="[PENDING] Then they should see the definition &apos;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&apos;" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user looks up the definition of the word 'apple' (PENDING)
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Looking up the definition of &apos;apple&apos;" classname="Scenario: Looking up the definition of &apos;apple&apos;" time="0.085"/>
+  <testcase name="[PENDING] Given the user is on the Wikionary home page​" classname="[PENDING] Given the user is on the Wikionary home page​" time="0">
+    <skipped/>
+    <system-out><![CDATA[Using timeout for story LookupADefinition.story of 300 secs.
+
+Scenario: Looking up the definition of 'pear'
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Looking up the definition of 'apple'
+---------------------------------------------------------------------------------
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Looking up the definition of 'pear'
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="[PENDING] When the user looks up the definition of the word &apos;pear&apos;" classname="[PENDING] When the user looks up the definition of the word &apos;pear&apos;" time="0">
+    <skipped/>
+    <system-out><![CDATA[Given the user is on the Wikionary home page (PENDING)
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="[PENDING] Then they should see the definition &apos;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&apos;" classname="[PENDING] Then they should see the definition &apos;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&apos;" time="0">
+    <skipped/>
+    <system-out><![CDATA[When the user looks up the definition of the word 'pear' (PENDING)
+]]></system-out>
+    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Looking up the definition of &apos;pear&apos;" classname="Scenario: Looking up the definition of &apos;pear&apos;" time="0"/>
+  <testcase name="LookupADefinition.story" classname="LookupADefinition.story" time="0"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0.001"/>
+</testsuite>

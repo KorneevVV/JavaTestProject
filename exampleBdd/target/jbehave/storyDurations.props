@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Fri Apr 28 12:30:33 MSK 2017
+threads=1
+total=0
+threadAverage=0
+stories/consult_dictionary/LookupADefinition.story=0

@@ -1,0 +1,6 @@
+ru\aplana\steps\DefinitionSteps.class
+ru\aplana\pages\DictionaryPage$1.class
+ru\aplana\pages\MailMainPage.class
+ru\aplana\steps\serenity\EndUserSteps.class
+ru\aplana\pages\DictionaryPage.class
+ru\aplana\AcceptanceTestSuite.class

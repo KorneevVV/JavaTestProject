@@ -1,0 +1,53 @@
+<story path="stories/consult_dictionary/LookupADefinition.story" title="Lookup a definition">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">talk better</inOrderTo>
+  <asA keyword="As a">n English student</asA>
+  <iWantTo keyword="I want to">look up word definitions</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Looking up the definition of &apos;apple&apos;">
+<step outcome="pending" keyword="PENDING">Given the user is on the Wikionary home page</step>
+<step outcome="pending" keyword="PENDING">When the user looks up the definition of the word &apos;apple&apos;</step>
+<step outcome="pending" keyword="PENDING">Then they should see the definition &apos;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&apos;</step>
+<pendingMethod>@Given(&quot;the user is on the Wikionary home page&quot;)
+@Pending
+public void givenTheUserIsOnTheWikionaryHomePage() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;the user looks up the definition of the word &apos;apple&apos;&quot;)
+@Pending
+public void whenTheUserLooksUpTheDefinitionOfTheWordapple() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;they should see the definition &apos;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&apos;&quot;)
+@Pending
+public void thenTheyShouldSeeTheDefinitionACommonRoundFruitProducedByTheTreeMalusDomesticaCultivatedInTemperateClimates() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="Looking up the definition of &apos;pear&apos;">
+<step outcome="pending" keyword="PENDING">Given the user is on the Wikionary home page</step>
+<step outcome="pending" keyword="PENDING">When the user looks up the definition of the word &apos;pear&apos;</step>
+<step outcome="pending" keyword="PENDING">Then they should see the definition &apos;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&apos;</step>
+<pendingMethod>@Given(&quot;the user is on the Wikionary home page&quot;)
+@Pending
+public void givenTheUserIsOnTheWikionaryHomePage() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@When(&quot;the user looks up the definition of the word &apos;pear&apos;&quot;)
+@Pending
+public void whenTheUserLooksUpTheDefinitionOfTheWordpear() {
+  // PENDING
+}
+</pendingMethod>
+<pendingMethod>@Then(&quot;they should see the definition &apos;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&apos;&quot;)
+@Pending
+public void thenTheyShouldSeeTheDefinitionAnEdibleFruitProducedByThePearTreeSimilarToAnAppleButElongatedTowardsTheStem() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+</story>
