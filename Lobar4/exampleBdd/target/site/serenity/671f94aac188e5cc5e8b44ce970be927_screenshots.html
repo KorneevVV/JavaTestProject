@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JBehave</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="3b75f663ceda9cfce0c8ee8abbd7ee43.html">Lookup A Definition</a>
+                > <a
+                    href="671f94aac188e5cc5e8b44ce970be927.html">Авторизация на vk.com, поиск человека по параметрам, использ&hellip; </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="d782c44557441225cc92a5e35bf4b23b.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="5f5dee50b3955739bfb580c79f480d2e.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-04-2017 20:57</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Lookup A Definition </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="38aada487c3cde380bc0961480560e34.html">Consult Dictionary
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Авторизация на Vk.Com, поиск человека по параметрам, используя выпадающие списки, проверка результатов поиска
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_85699db010084b798218f6c4b1853350.png" title="Given пользователь открывает главную страницу VK" width="960"/>
+                <img src="scaled_997a5faf1f9c2c357d7ff09098b654f4.png" title="Is the home page" width="960"/>
+                <img src="scaled_c9bd0b05cf94092c60e710f644df0514.png" title="When пользователь вводит login: '89169577765' и password: 'Сложныйпароль'" width="960"/>
+                <img src="997a5faf1f9c2c357d7ff09098b654f4.png" title="Enters login: 89169577765" width="960"/>
+                <img src="scaled_d228a1071d61708490a8f9264ecb2276.png" title="Enters login: 89169577765" width="960"/>
+                <img src="d228a1071d61708490a8f9264ecb2276.png" title="Enters pass: Сложныйпароль" width="960"/>
+                <img src="scaled_af804fffc44179fa086e2b49b60fbcad.png" title="Enters pass: Сложныйпароль" width="960"/>
+                <img src="af804fffc44179fa086e2b49b60fbcad.png" title="Click sign in button" width="960"/>
+                <img src="scaled_69c075da97544298498f1d25751ad2b1.png" title="Click sign in button" width="960"/>
+                <img src="c9bd0b05cf94092c60e710f644df0514.png" title="Then происходит авторизация пользователя" width="960"/>
+                <img src="c9bd0b05cf94092c60e710f644df0514.png" title="Check sign in" width="960"/>
+                <img src="scaled_ec77fb44c5d3dbe6748a8b404a0bc55f.png" title="When поиск пользователя: 'Корнеев Влад' страна: 'Россия' город: 'Москва'" width="960"/>
+                <img src="scaled_cfa1c6586e0b826044e7be8e914b791f.png" title="Search user: Корнеев Влад" width="960"/>
+                <img src="scaled_3a8a5d616af566284e052f23be4d4ba6.png" title="Selection country: Россия" width="960"/>
+                <img src="scaled_53e2adb67ece2b5df8d5420aa2dcd954.png" title="Selection country: Россия" width="960"/>
+                <img src="scaled_177b3cf9e56aea99a20ceadb044e5767.png" title="Selection city: Москва" width="960"/>
+                <img src="scaled_62d31a43600246edbc016835a96863e2.png" title="Selection city: Москва" width="960"/>
+                <img src="scaled_83d2c079ff190e696fbf9c5b9adb1a27.png" title="Then будут найдены пользователи согласно условиям" width="960"/>
+                <img src="83d2c079ff190e696fbf9c5b9adb1a27.png" title="Check result search: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.2.2-rc.1</span>
+</div>
+</body>
+</html>

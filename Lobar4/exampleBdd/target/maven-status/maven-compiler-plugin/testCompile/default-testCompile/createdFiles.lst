@@ -1,0 +1,4 @@
+ru\aplana\steps\DefinitionSteps.class
+ru\aplana\pages\HomePage.class
+ru\aplana\steps\serenity\EndUserSteps.class
+ru\aplana\AcceptanceTestSuite.class
