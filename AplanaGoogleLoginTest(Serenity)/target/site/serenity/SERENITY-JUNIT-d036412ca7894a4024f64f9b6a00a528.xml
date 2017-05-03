@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="End course" skipped="0" tests="1" time="50.87" timestamp="2017-05-123 10:27:06"><testcase name="scenario description"><error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'misha', ip: '192.168.33.2', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 2 seconds. Element not found
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="End course" skipped="0" tests="1" time="15.82" timestamp="2017-05-124 12:49:13"><testcase name="scenario description"><error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'misha', ip: '192.168.33.2', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 2 seconds. Element not found
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'misha', ip: '192.168.33.2', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
@@ -7,7 +7,7 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
 System info: host: 'misha', ip: '192.168.33.2', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
 Driver info: driver.version: unknown&#13;
-ru.pankov.pages.GmailPage.clickEdit1(GmailPage.java:34)&#13;
+ru.pankov.pages.GmailPage.clickEdit1(GmailPage.java:42)&#13;
 ru.pankov.steps.serenity.EndUserSteps.enterEditButtonVidget(EndUserSteps.java:23)&#13;
 ru.pankov.steps.EmailSteps.whenTheUserClickEditButtonVidget(EmailSteps.java:36)&#13;
 </system-err></testcase></testsuite>

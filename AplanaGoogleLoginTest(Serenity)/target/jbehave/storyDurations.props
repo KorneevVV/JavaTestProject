@@ -1,7 +1,6 @@
 #org.jbehave.core.embedder.StoryManager
-#Wed May 03 22:28:28 MSK 2017
-consult_dictionary/EndCourse.story=51000
+#Thu May 04 00:49:29 MSK 2017
+consult_dictionary/EndCourse.story=16000
 threads=1
-total=81000
-threadAverage=81000
-consult_dictionary/Story.story=30000
+total=16000
+threadAverage=16000

@@ -1,6 +1,9 @@
 package ru.pankov;
 
 
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.concurrent.TimeUnit;
 import org.junit.*;
 import static org.junit.Assert.*;
@@ -50,7 +53,7 @@ public void click (WebElement webElement){
         }
       }
     });
-   // click( driver.findElement(By.xpath("//*[@id='Passwd']|//input[@type='password']")));
+
 
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     driver.findElement(By.xpath("//*[@id='Passwd']|//input[@type='password']")).click();
@@ -58,9 +61,19 @@ public void click (WebElement webElement){
     driver.findElement(By.xpath("//*[@id='Passwd']|//input[@type='password']")).sendKeys("kracoz13");
     driver.findElement(By.xpath("//*[@id='signIn']|//*[@id='passwordNext']")).click();
 
-    driver.findElement(By.xpath("//div[@aria-label='Настройки']")).click();
+
+
+
+    driver.findElement(By.xpath("//div[@aria-label='Настройки']|//*[@id=':28']|//div[contains(@class,'T-I J-J5-Ji ash T-I-ax7 L3')]")).click();
     driver.findElement(By.xpath("//*[@id='ms'][.='Настройки']")).click();
 
+    driver.findElement(By.xpath("//div[@aria-label='Подпись']")).click();
+    driver.findElement(By.xpath("//div[@aria-label='Подпись']")).clear();
+    Calendar currentDate = new GregorianCalendar();
+    driver.findElement(By.xpath("//div[@aria-label='Подпись']")).sendKeys("текущая дата " + currentDate.getTime());
+
+    driver.findElement(By.xpath("//label[.='Добавлять эту подпись перед цитируемым текстом в ответных сообщениях и удалять строку \"--\" перед ней']")).click();
+    driver.findElement(By.xpath("//button[.='Сохранить изменения']")).click();
 
     click(driver.findElement(By.xpath("(//div[.='НАПИСАТЬ'])[3]")));
     driver.findElement(By.xpath("(//div[.='НАПИСАТЬ'])[3]")).click();
@@ -72,7 +85,7 @@ public void click (WebElement webElement){
 
     driver.findElement(By.xpath("//div[@aria-label='Тело письма']")).click();
     driver.findElement(By.xpath("//div[@aria-label='Тело письма']")).clear();
-    driver.findElement(By.xpath("//div[@aria-label='Тело письма']")).sendKeys("testAplana");
+    driver.findElement(By.xpath("//div[@aria-label='Тело письма']")).sendKeys(" testAplana");
 
     driver.findElement(By.xpath("//input[@name='subjectbox']")).click();
     driver.findElement(By.xpath("//input[@name='subjectbox']")).clear();

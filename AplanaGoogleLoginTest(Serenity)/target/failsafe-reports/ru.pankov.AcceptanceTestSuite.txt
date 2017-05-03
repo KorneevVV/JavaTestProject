@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ru.pankov.AcceptanceTestSuite
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 2, Errors: 1, Skipped: 6, Time elapsed: 111.32 sec <<< FAILURE! - in ru.pankov.AcceptanceTestSuite
-When Выбираем виджет настроек(ru.pankov.steps.EmailSteps)  Time elapsed: 9.78 sec  <<< ERROR!
+Tests run: 15, Failures: 2, Errors: 2, Skipped: 5, Time elapsed: 24.532 sec <<< FAILURE! - in ru.pankov.AcceptanceTestSuite
+When Выбираем виджет настроек(ru.pankov.steps.EmailSteps)  Time elapsed: 5.26 sec  <<< ERROR!
 net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
@@ -21,7 +21,7 @@ Driver info: driver.version: unknown
 	at java.lang.reflect.Method.invoke(Method.java:497)
 	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
 	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at ru.pankov.pages.GmailPage.clickEdit1(GmailPage.java:34)
+	at ru.pankov.pages.GmailPage.clickEdit1(GmailPage.java:42)
 	at ru.pankov.steps.serenity.EndUserSteps.enterEditButtonVidget(EndUserSteps.java:23)
 	at ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.CGLIB$enterEditButtonVidget$12(<generated>)
 	at ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c$$FastClassByCGLIB$$4bfaaa8b.invoke(<generated>)
@@ -34,7 +34,7 @@ Driver info: driver.version: unknown
 	at ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.enterEditButtonVidget(<generated>)
 	at ru.pankov.steps.EmailSteps.whenTheUserClickEditButtonVidget(EmailSteps.java:36)
 
-Scenario: scenario description  Time elapsed: 9.905 sec  <<< FAILURE!
+Scenario: scenario description  Time elapsed: 5.269 sec  <<< FAILURE!
 java.lang.AssertionError: scenario failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:43)
@@ -51,7 +51,7 @@ java.lang.AssertionError: scenario failed!
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
-EndCourse.story  Time elapsed: 9.936 sec  <<< FAILURE!
+EndCourse.story  Time elapsed: 5.38 sec  <<< FAILURE!
 java.lang.AssertionError: story failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
@@ -65,4 +65,21 @@ java.lang.AssertionError: story failed!
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
+
+ru.pankov.AcceptanceTestSuite  Time elapsed: 7.92 sec  <<< ERROR!
+java.lang.RuntimeException: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@1960d93: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'misha', ip: '192.168.33.2', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown
+	at org.jbehave.core.embedder.Embedder$ThrowingRunningStoriesFailed.handleFailures(Embedder.java:553)
+	at org.jbehave.core.embedder.Embedder.handleFailures(Embedder.java:238)
+	at org.jbehave.core.embedder.Embedder.runStoriesAsPaths(Embedder.java:216)
+	at net.serenitybdd.jbehave.embedders.ExtendedEmbedder.runStoriesAsPaths(ExtendedEmbedder.java:60)
+	at net.serenitybdd.jbehave.runners.SerenityReportingRunner.run(SerenityReportingRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
 

@@ -3,6 +3,12 @@ package ru.pankov.pages;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.pages.PageObject;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * Created by kracoz on 03.05.2017.
@@ -25,12 +31,14 @@ public class GmailPage extends PageObject{
     private WebElementFacade sendEmail;
 
 
-    @FindBy(xpath = "(//div[@aria-label='Настройки']")
+    @FindBy(xpath = "(//div[@aria-label='Настройки']|//*[@id=':28']|//div[contains(@class,'T-I J-J5-Ji ash T-I-ax7 L3')]")
     private WebElementFacade clickEdit1;
     @FindBy(xpath = "(//*[@id='ms'][.='Настройки']")
     private WebElementFacade clickEditInto;
 
     public void clickEdit1(){
+       WebDriverWait wait = new WebDriverWait(getDriver(), 15);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@aria-label='Настройки']|//*[@id=':28']|//div[contains(@class,'T-I J-J5-Ji ash T-I-ax7 L3')]")));
         this.clickEdit1.click();
     }
 
@@ -46,8 +54,9 @@ public class GmailPage extends PageObject{
     }
     public void writeTextEmail(String textEmail) {
         this.textEmail.click();
+        String signature = this.textEmail.getText();
         this.textEmail.clear();
-        this.textEmail.sendKeys(textEmail);
+        this.textEmail.sendKeys(textEmail + "\n" + signature);
     }
     public void writeSubject(String subj){
         this.subject.click();

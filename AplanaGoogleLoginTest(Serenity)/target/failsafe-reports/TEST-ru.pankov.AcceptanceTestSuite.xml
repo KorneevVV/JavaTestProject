@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.pankov.AcceptanceTestSuite" time="154.873" tests="21" errors="1" skipped="6" failures="2">
+<testsuite name="ru.pankov.AcceptanceTestSuite" time="33.615" tests="15" errors="2" skipped="5" failures="2">
   <properties>
     <property name="idea.version" value="2017.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,12 +64,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="BeforeStories" classname="java.lang.Object" time="0.047"/>
-  <testcase name="Given пользователь на домашней странице Гугл" classname="ru.pankov.steps.EmailSteps" time="9.18"/>
-  <testcase name="When пользователь переходит на страницу аутентификации почты" classname="ru.pankov.steps.EmailSteps" time="4.301"/>
-  <testcase name="When вводим почту &apos;pankovtestaplana@gmail.com&apos;" classname="ru.pankov.steps.EmailSteps" time="2.676"/>
-  <testcase name="When вводим пароль от почты &apos;kracoz13&apos; и авторизуемся" classname="ru.pankov.steps.EmailSteps" time="10.641"/>
-  <testcase name="When Выбираем виджет настроек" classname="ru.pankov.steps.EmailSteps" time="9.78">
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.055"/>
+  <testcase name="Given пользователь на домашней странице Гугл" classname="ru.pankov.steps.EmailSteps" time="3.368"/>
+  <testcase name="When пользователь переходит на страницу аутентификации почты" classname="ru.pankov.steps.EmailSteps" time="0.783"/>
+  <testcase name="When вводим почту &apos;pankovtestaplana@gmail.com&apos;" classname="ru.pankov.steps.EmailSteps" time="0.914"/>
+  <testcase name="When вводим пароль от почты &apos;kracoz13&apos; и авторизуемся" classname="ru.pankov.steps.EmailSteps" time="4.666"/>
+  <testcase name="When Выбираем виджет настроек" classname="ru.pankov.steps.EmailSteps" time="5.26">
     <error message="Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;misha&apos;, ip: &apos;192.168.33.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
@@ -88,7 +88,7 @@ Driver info: driver.version: unknown
 	at java.lang.reflect.Method.invoke(Method.java:497)
 	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
 	at com.sun.proxy.$Proxy23.click(Unknown Source)
-	at ru.pankov.pages.GmailPage.clickEdit1(GmailPage.java:34)
+	at ru.pankov.pages.GmailPage.clickEdit1(GmailPage.java:42)
 	at ru.pankov.steps.serenity.EndUserSteps.enterEditButtonVidget(EndUserSteps.java:23)
 	at ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.CGLIB$enterEditButtonVidget$12(<generated>)
 	at ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c$$FastClassByCGLIB$$4bfaaa8b.invoke(<generated>)
@@ -101,6 +101,11 @@ Driver info: driver.version: unknown
 	at ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.enterEditButtonVidget(<generated>)
 	at ru.pankov.steps.EmailSteps.whenTheUserClickEditButtonVidget(EmailSteps.java:36)
 ]]></error>
+    <system-out><![CDATA[When ������ ������ �� ����� 'kracoz13' � ������������
+]]></system-out>
+  </testcase>
+  <testcase name="When Выбираем вкладку НАСТРОЙКИ в выпадающем списке виджета настроек" classname="ru.pankov.steps.EmailSteps" time="0">
+    <skipped/>
     <system-out><![CDATA[When �������� ������ �������� (FAILED)
 (net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
@@ -109,32 +114,27 @@ System info: host: 'misha', ip: '192.168.33.2', os.name: 'Windows 8.1', os.arch:
 Driver info: driver.version: unknown)
 ]]></system-out>
   </testcase>
-  <testcase name="When Выбираем вкладку НАСТРОЙКИ в выпадающем списке виджета настроек" classname="ru.pankov.steps.EmailSteps" time="0">
+  <testcase name="When Устанавливаем подпись в виде текущей даты" classname="ru.pankov.steps.EmailSteps" time="0">
     <skipped/>
     <system-out><![CDATA[When �������� ������� ��������� � ���������� ������ ������� �������� (NOT PERFORMED)
 ]]></system-out>
   </testcase>
-  <testcase name="When Устанавливаем подпись в виде текущей даты" classname="ru.pankov.steps.EmailSteps" time="0">
+  <testcase name="When меняем чекбокс подписи" classname="ru.pankov.steps.EmailSteps" time="0">
     <skipped/>
     <system-out><![CDATA[When ������������� ������� � ���� ������� ���� (NOT PERFORMED)
 ]]></system-out>
   </testcase>
-  <testcase name="When меняем чекбокс подписи" classname="ru.pankov.steps.EmailSteps" time="0">
+  <testcase name="When Сохраняем изменения в настройках" classname="ru.pankov.steps.EmailSteps" time="0">
     <skipped/>
     <system-out><![CDATA[When ������ ������� ������� (NOT PERFORMED)
 ]]></system-out>
   </testcase>
-  <testcase name="When Сохраняем изменения в настройках" classname="ru.pankov.steps.EmailSteps" time="0">
+  <testcase name="Then пишем письмо - адрессат: &apos;pankovtestaplana@gmail.com&apos;, текст письма : &apos;Serenity test&apos;,тема письма:&apos;Тест аплана&apos;" classname="ru.pankov.steps.EmailSteps" time="0">
     <skipped/>
     <system-out><![CDATA[When ��������� ��������� � ���������� (NOT PERFORMED)
 ]]></system-out>
   </testcase>
-  <testcase name="Then пишем письмо - адрессат: &apos;pankovtestaplana@gmail.com&apos;, текст письма : &apos;Serenity test&apos;,тема письма:&apos;Тест аплана&apos;" classname="ru.pankov.steps.EmailSteps" time="0">
-    <skipped/>
-    <system-out><![CDATA[Then ����� ������ - ��������: 'pankovtestaplana@gmail.com', ����� ������ : 'Serenity test',���� ������:'���� ������' (NOT PERFORMED)
-]]></system-out>
-  </testcase>
-  <testcase name="Scenario: scenario description" classname="Scenario: scenario description" time="9.905">
+  <testcase name="Scenario: scenario description" classname="Scenario: scenario description" time="5.269">
     <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
 	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
 	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:43)
@@ -142,6 +142,24 @@ Driver info: driver.version: unknown)
 	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:890)
 	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)
 	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)
+	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)
+	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)
+	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</failure>
+    <system-out><![CDATA[Then ����� ������ - ��������: 'pankovtestaplana@gmail.com', ����� ������ : 'Serenity test',���� ������:'���� ������' (NOT PERFORMED)
+]]></system-out>
+  </testcase>
+  <testcase name="EndCourse.story" classname="EndCourse.story" time="5.38">
+    <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
+	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
+	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
+	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterStory(ConcurrentStoryReporter.java:122)
+	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:792)
 	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)
 	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)
 	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)
@@ -182,36 +200,28 @@ TEST FAILED WITH ERROR: scenario description
 [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - Timed out after 2 seconds. Element not found
 ]]></system-err>
   </testcase>
-  <testcase name="EndCourse.story" classname="EndCourse.story" time="9.936">
-    <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
-	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
-	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
-	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterStory(ConcurrentStoryReporter.java:122)
-	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:792)
-	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)
-	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)
-	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)
-	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-</failure>
+  <testcase name="AfterStories" classname="java.lang.Object" time="0"/>
+  <testcase name="ru.pankov.AcceptanceTestSuite" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="7.92">
+    <error message="org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: &#10;org.jbehave.core.embedder.PerformableTree$SomethingHappened@1960d93: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;misha&apos;, ip: &apos;192.168.33.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_51&apos;&#10;Driver info: driver.version: unknown" type="java.lang.RuntimeException">java.lang.RuntimeException: org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: 
+org.jbehave.core.embedder.PerformableTree$SomethingHappened@1960d93: net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'misha', ip: '192.168.33.2', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown
+	at org.jbehave.core.embedder.Embedder$ThrowingRunningStoriesFailed.handleFailures(Embedder.java:553)
+	at org.jbehave.core.embedder.Embedder.handleFailures(Embedder.java:238)
+	at org.jbehave.core.embedder.Embedder.runStoriesAsPaths(Embedder.java:216)
+	at net.serenitybdd.jbehave.embedders.ExtendedEmbedder.runStoriesAsPaths(ExtendedEmbedder.java:60)
+	at net.serenitybdd.jbehave.runners.SerenityReportingRunner.run(SerenityReportingRunner.java:174)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+</error>
     <system-out><![CDATA[
+Generating reports view to 'K:\AplanaCourse\AplanaGoogleLoginTest(Serenity)\target\jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
+Reports view generated with 3 stories (of which 1 pending) containing 2 scenarios (of which 1 pending)
+Failures in reports view: 1 scenarios failed
 ]]></system-out>
   </testcase>
-  <testcase name="Given пользователь на домашней странице Гугл​" classname="ru.pankov.steps.EmailSteps" time="2.195"/>
-  <testcase name="When пользователь переходит на страницу аутентификации почты​" classname="ru.pankov.steps.EmailSteps" time="1.117"/>
-  <testcase name="When вводим почту &apos;pankovtestaplana@gmail.com&apos;​" classname="ru.pankov.steps.EmailSteps" time="2.064"/>
-  <testcase name="When вводим пароль от почты &apos;kracoz13&apos; и авторизуемся​" classname="ru.pankov.steps.EmailSteps" time="20.581"/>
-  <testcase name="[PENDING] Then пишем письмо - адрессат: &apos;pankovtestaplana@gmail.com&apos;, текст письма : &apos;Serenity test&apos;" classname="[PENDING] Then пишем письмо - адрессат: &apos;pankovtestaplana@gmail.com&apos;, текст письма : &apos;Serenity test&apos;" time="0">
-    <skipped/>
-    <system-out><![CDATA[Then ����� ������ - ��������: 'pankovtestaplana@gmail.com', ����� ������ : 'Serenity test' (PENDING)
-]]></system-out>
-    <system-err><![CDATA[[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - TEST PENDING
-]]></system-err>
-  </testcase>
-  <testcase name="Scenario: scenario description​" classname="Scenario: scenario description​" time="22.245"/>
-  <testcase name="Story.story" classname="Story.story" time="22.276"/>
-  <testcase name="AfterStories" classname="java.lang.Object" time="27.929"/>
 </testsuite>
