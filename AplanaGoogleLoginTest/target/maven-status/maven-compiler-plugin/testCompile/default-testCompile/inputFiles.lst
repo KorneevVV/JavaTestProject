@@ -1,1 +1,8 @@
-K:\kracozubr\JAVA\AplanaGoogleLoginTest\src\test\java\GoogleAplanaTest2.java
+F:\AplanaCourse\AplanaGoogleLoginTest\src\test\java\ru\pankov\pages\BaseGooglePage.java
+F:\AplanaCourse\AplanaGoogleLoginTest\src\test\java\ru\pankov\pages\GoogleAuthPagePartPasswordPage.java
+F:\AplanaCourse\AplanaGoogleLoginTest\src\test\java\ru\pankov\steps\EmailSteps.java
+F:\AplanaCourse\AplanaGoogleLoginTest\src\test\java\ru\pankov\pages\GoogleAuthPagePartEmailPage.java
+F:\AplanaCourse\AplanaGoogleLoginTest\src\test\java\ru\pankov\GoogleAplanaTest2.java
+F:\AplanaCourse\AplanaGoogleLoginTest\src\test\java\ru\pankov\AcceptanceTestSuite.java
+F:\AplanaCourse\AplanaGoogleLoginTest\src\test\java\ru\pankov\pages\GmailPage.java
+F:\AplanaCourse\AplanaGoogleLoginTest\src\test\java\ru\pankov\steps\serenity\EndUserSteps.java

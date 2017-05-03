@@ -1,1 +1,9 @@
-GoogleAplanaTest2.class
+ru\pankov\pages\BaseGooglePage.class
+ru\pankov\pages\GoogleAuthPagePartEmailPage.class
+ru\pankov\GoogleAplanaTest2$1.class
+ru\pankov\steps\EmailSteps.class
+ru\pankov\GoogleAplanaTest2.class
+ru\pankov\AcceptanceTestSuite.class
+ru\pankov\steps\serenity\EndUserSteps.class
+ru\pankov\pages\GmailPage.class
+ru\pankov\pages\GoogleAuthPagePartPasswordPage.class
