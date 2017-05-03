@@ -1,0 +1,8 @@
+ru\aplana\steps\DefinitionSteps.class
+ru\aplana\pages\YandexMailPage.class
+ru\aplana\pages\YandexLoginPage.class
+ru\aplana\steps\serenity\User.class
+ru\aplana\steps\serenity\EndUserSteps.class
+ru\aplana\AcceptanceTestSuite.class
+ru\aplana\pages\YandexMainPage.class
+ru\aplana\pages\OptionsPage.class

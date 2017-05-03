@@ -1,0 +1,55 @@
+<story path="stories/new_mail/LogInAndSendNewMail.story" title="LogIn yandexmail
+Create and send new mail">
+<scenario keyword="Scenario:" title="User go to main Yandex page, login, send mail">
+<step outcome="successful">Given the user enter main yandex page</step>
+<step outcome="successful">When the user click on mail button</step>
+<step outcome="successful">And the user type login and password and click enter</step>
+<step outcome="successful">And user go to options</step>
+<step outcome="failed" keyword="FAILED">Then user change options<failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;AlisaHP-PC&apos;, ip: &apos;192.168.150.141&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown</failure></step>
+<failure>net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 2 seconds. Element not found
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;AlisaHP-PC&apos;, ip: &apos;192.168.150.141&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at ru.aplana.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f2505858.optionsMoves(&lt;generated&gt;)
+	at ru.aplana.steps.DefinitionSteps.changeOptions(DefinitionSteps.java:45)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+<scenario keyword="Scenario:" title="User relogin">
+<step outcome="successful">Given the user enter main yandex page</step>
+<step outcome="successful">When the user click on mail button</step>
+<step outcome="successful">And the user type login and password and click enter</step>
+<step outcome="failed" keyword="FAILED">When the user create new mail and check podpis<failure>java.lang.AssertionError: data ne sovpadaut</failure></step>
+<step outcome="notPerformed" keyword="NOT PERFORMED">Then check podpis</step>
+<failure>java.lang.AssertionError: data ne sovpadaut
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at ru.aplana.pages.YandexMailPage.writeNewMailAndCheckPodpis(YandexMailPage.java:78)
+	at ru.aplana.steps.serenity.EndUserSteps.writeNewMailAndCheckPodpis(EndUserSteps.java:34)
+	at ru.aplana.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f2505858.CGLIB$writeNewMailAndCheckPodpis$0(&lt;generated&gt;)
+	at ru.aplana.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f2505858$$FastClassByCGLIB$$7ea337c.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at ru.aplana.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$f2505858.writeNewMailAndCheckPodpis(&lt;generated&gt;)
+	at ru.aplana.steps.DefinitionSteps.writeNewMail(DefinitionSteps.java:32)
+	(reflection-invoke)
+	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
+	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
+...</failure>
+</scenario>
+</story>

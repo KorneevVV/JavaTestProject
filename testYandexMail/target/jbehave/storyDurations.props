@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Wed May 03 20:07:55 MSK 2017
+threads=1
+total=43000
+stories/new_mail/LogInAndSendNewMail.story=43000
+threadAverage=43000

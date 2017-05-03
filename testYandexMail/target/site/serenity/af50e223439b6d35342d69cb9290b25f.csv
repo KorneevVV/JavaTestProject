@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"LogIn yandexmail
+Create and send new mail","User go to main Yandex page, login, send mail","ERROR","2017-05-03T20:07:11.836+03:00","0.0","27.64"
+"LogIn yandexmail
+Create and send new mail","User relogin","FAILURE","2017-05-03T20:07:39.837+03:00","0.0","15.47"
