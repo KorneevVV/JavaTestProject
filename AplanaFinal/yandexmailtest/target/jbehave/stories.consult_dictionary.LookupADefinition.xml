@@ -1,0 +1,13 @@
+<story path="stories/consult_dictionary/LookupADefinition.story" title="Lookup a definition">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">talk better</inOrderTo>
+  <asA keyword="As a">n English student</asA>
+  <iWantTo keyword="I want to">look up word definitions</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="User log in yandex mail, change sign and check new sign">
+<step outcome="successful">Given User enter main yandex page, go to mail page and log in</step>
+<step outcome="successful">When User edit user&apos;s data settings</step>
+<step outcome="successful">When User go to mails</step>
+<step outcome="successful">Then User create new mail and check the sign</step>
+</scenario>
+</story>

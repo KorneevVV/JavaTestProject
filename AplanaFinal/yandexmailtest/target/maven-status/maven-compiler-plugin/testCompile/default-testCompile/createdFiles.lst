@@ -1,0 +1,8 @@
+ru\aplana\finaltest\pages\YandexLoginPage.class
+ru\aplana\finaltest\steps\serenity\EndUserSteps.class
+ru\aplana\finaltest\pages\YandexPage.class
+ru\aplana\finaltest\steps\DefinitionSteps.class
+ru\aplana\finaltest\model\User.class
+ru\aplana\finaltest\pages\SettingsPage.class
+ru\aplana\finaltest\AcceptanceTestSuite.class
+ru\aplana\finaltest\pages\YandexMailPage.class

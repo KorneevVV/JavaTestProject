@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ru.aplana.finaltest.AcceptanceTestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.988 sec - in ru.aplana.finaltest.AcceptanceTestSuite
