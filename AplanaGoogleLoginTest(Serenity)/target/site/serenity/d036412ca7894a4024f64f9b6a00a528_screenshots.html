@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JBehave</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="96ff75e30ba59c27a050593158ce9c01.html">End Course</a>
+                > <a
+                    href="d036412ca7894a4024f64f9b6a00a528.html">scenario description </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-05-2017 22:27</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">End Course</span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-3x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Scenario Description
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+                <div class="panel-heading"><span class='error-caption ellipsis'>ERROR: No such element exception: Timed out ...</span></div>
+                <div class="panel-body">
+                    <a href="pagesource5637826412902978960.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="d1cecde7161e04df4c28a0077e4582ba.png" title="Given пользователь на домашней странице Гугл" width="960"/>
+                <img src="d1cecde7161e04df4c28a0077e4582ba.png" title="Is the home page" width="960"/>
+                <img src="scaled_4a5a7ae558de1633ea667962dcbc3b3e.png" title="When пользователь переходит на страницу аутентификации почты" width="960"/>
+                <img src="scaled_b744f8fff9a8312664b23869be0ec6b4.png" title="When пользователь переходит на страницу аутентификации почты" width="960"/>
+                <img src="4a5a7ae558de1633ea667962dcbc3b3e.png" title="Enter email button" width="960"/>
+                <img src="b744f8fff9a8312664b23869be0ec6b4.png" title="Enter email button" width="960"/>
+                <img src="scaled_7ec17693b797985d694db52ea203857c.png" title="When вводим почту 'pankovtestaplana@gmail.com'" width="960"/>
+                <img src="scaled_1a29f7989301929d1ff5301222445b3e.png" title="Log in part email: pankovtestaplana@gmail.com" width="960"/>
+                <img src="scaled_089f251194bb7485936d9088550a6ae1.png" title="Log in part email: pankovtestaplana@gmail.com" width="960"/>
+                <img src="1a29f7989301929d1ff5301222445b3e.png" title="Enter users email: pankovtestaplana@gmail.com" width="960"/>
+                <img src="scaled_5084dc3b7aa4adb44b3b803aecda6164.png" title="Enter users email: pankovtestaplana@gmail.com" width="960"/>
+                <img src="5084dc3b7aa4adb44b3b803aecda6164.png" title="Go to rart password" width="960"/>
+                <img src="scaled_4e75aadf8ff9e53a55262a48531e6355.png" title="Go to rart password" width="960"/>
+                <img src="scaled_e271df60bf117d8274fc9af71f1e35ab.png" title="When вводим пароль от почты 'kracoz13' и авторизуемся" width="960"/>
+                <img src="scaled_2bfbb6701efb5efa3ced1ac30f8cf694.png" title="When вводим пароль от почты 'kracoz13' и авторизуемся" width="960"/>
+                <img src="e271df60bf117d8274fc9af71f1e35ab.png" title="Log in part pass: kracoz13" width="960"/>
+                <img src="scaled_9e4d8ef602dc135a7afd1355f1b98786.png" title="Log in part pass: kracoz13" width="960"/>
+                <img src="e271df60bf117d8274fc9af71f1e35ab.png" title="Enter users password: kracoz13" width="960"/>
+                <img src="scaled_1dfbed8f4dc26ed06807be7859c968cc.png" title="Enter users password: kracoz13" width="960"/>
+                <img src="1dfbed8f4dc26ed06807be7859c968cc.png" title="Sing in" width="960"/>
+                <img src="scaled_69d55f5dd48778cb046418c4355b21b8.png" title="Sing in" width="960"/>
+                <img src="2bfbb6701efb5efa3ced1ac30f8cf694.png" title="When Выбираем виджет настроек" width="960"/>
+                <img src="scaled_75d5b00d2e54f389353086e97adbfe93.png" title="Enter edit button vidget" width="960"/>
+                <img src="scaled_9fba4043f8aaf2b1b843a0269956d3e6.png" title="Enter edit button vidget: <span class='error-color'>ERROR</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.2.2-rc.1</span>
+</div>
+</body>
+</html>
