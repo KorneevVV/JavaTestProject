@@ -1,7 +1,9 @@
 package ru.aplana.steps.serenity;
 
+import org.junit.Assert;
 import ru.aplana.pages.HomePage;
 import net.thucydides.core.annotations.Step;
+
 import static org.junit.Assert.assertTrue;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.hasItem;
@@ -31,8 +33,9 @@ public class EndUserSteps {
     }
 
     @Step
-    public void checkSignIn() {
+    public void checkSignIn(String title) {
         assertTrue(homePage.takeLinkMyPage());
+        assertTrue(title.equals(homePage.getTitle()));
     }
 
     @Step
@@ -53,5 +56,24 @@ public class EndUserSteps {
     @Step
     public void checkResultSearch() {
         homePage.checkResultSearch();
+    }
+
+    public void clickSetting() {
+        homePage.clickSetting();
+    }
+
+    @Step
+    public void checkSignIn() {
+        assertTrue(homePage.takeLinkMyPage());
+    }
+
+    @Step
+    public void changeDate(Integer yearsInt) {
+        homePage.changeDate(yearsInt);
+    }
+
+    @Step
+    public void checkMsg(String msg) {
+        homePage.checkMsg(msg);
     }
 }

@@ -29,6 +29,11 @@ public class DefinitionSteps {
         endUsersSteps.checkSignIn();
     }
 
+    @Then("происходит авторизация пользователя и заголовок страницы '$title'")
+    public void thenSignIn(String title) {
+        endUsersSteps.checkSignIn(title);
+    }
+
     @When("поиск пользователя: '$name' страна: '$country' город: '$city'")
     public void whenSearchUsers(String name, String country, String city) {
         endUsersSteps.searchUser(name);
@@ -40,4 +45,21 @@ public class DefinitionSteps {
     public void thenCheckResultSearch() {
         endUsersSteps.checkResultSearch();
     }
+
+    @When("пользователь переходит в настройки")
+    public void whenTheUsersClickSetting() {
+        endUsersSteps.clickSetting();
+    }
+
+    @When("пользователь изменяет дату рождения на текущую - '$years' лет")
+    public void whenTheUsersChangeDate(String years) {
+        Integer yearsInt = new Integer(years);
+        endUsersSteps.changeDate(yearsInt);
+    }
+
+    @Then("появляется сообщение '$msg'")
+    public void thenCheckMsg(String msg) {
+        endUsersSteps.checkMsg(msg);
+    }
+
 }
