@@ -60,7 +60,8 @@ public class EndUserSteps {
     public void checkResultSearch() {
         homePage.checkResultSearch();
     }
-
+    
+    @Step
     public void clickSetting() {
         homePage.clickSetting();
     }

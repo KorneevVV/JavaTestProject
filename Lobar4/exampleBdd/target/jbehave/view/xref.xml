@@ -248,31 +248,31 @@ So that </localizedNarrative>
                   <step>Given пользователь открывает главную страницу VK</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given пользователь открывает главную страницу VK</parametrisedStep>
-                  <durationInMillis>9404</durationInMillis>
+                  <durationInMillis>4622</durationInMillis>
                 </successful>
                 <successful>
                   <step>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</parametrisedStep>
-                  <durationInMillis>5105</durationInMillis>
+                  <durationInMillis>2748</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then происходит авторизация пользователя</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then происходит авторизация пользователя</parametrisedStep>
-                  <durationInMillis>444</durationInMillis>
+                  <durationInMillis>301</durationInMillis>
                 </successful>
                 <successful>
                   <step>When поиск пользователя: &apos;Корнеев Влад&apos; страна: &apos;Россия&apos; город: &apos;Москва&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When поиск пользователя: &apos;Корнеев Влад&apos; страна: &apos;Россия&apos; город: &apos;Москва&apos;</parametrisedStep>
-                  <durationInMillis>7387</durationInMillis>
+                  <durationInMillis>4337</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then будут найдены пользователи согласно условиям</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then будут найдены пользователи согласно условиям</parametrisedStep>
-                  <durationInMillis>402</durationInMillis>
+                  <durationInMillis>372</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -371,7 +371,7 @@ So that </localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>25954</durationInMillis>
+        <durationInMillis>14237</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -436,7 +436,7 @@ So that </localizedNarrative>
         </lifecycle>
         <scenarios>
           <scenario>
-            <title>Авторизация на vk.com, изменение даты рождения, используя выпадающие списки, проверка даты рождения на главной странице</title>
+            <title>Авторизация на vk.com, изменение даты рождения, проверка даты рождения на главной странице</title>
             <meta>
               <properties/>
             </meta>
@@ -513,7 +513,7 @@ So that </localizedNarrative>
               <string>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</string>
               <string>Then происходит авторизация пользователя и заголовок страницы &apos;Новости&apos;</string>
               <string>When пользователь переходит в настройки</string>
-              <string>When пользователь изменяет дату рождения на текущую - &apos;55&apos; лет</string>
+              <string>When пользователь изменяет дату рождения на текущую - &apos;27&apos; лет</string>
               <string>Then появляется сообщение &apos;Изменения сохранены.&apos;</string>
               <string>When пользователь переходит на страницу профиля</string>
               <string>Then дата рождения равна текущей за вычетом необходимого кол-ва лет</string>
@@ -531,7 +531,7 @@ So that </localizedNarrative>
       <scenarios>
         <performableScenario>
           <scenario>
-            <title>Авторизация на vk.com, изменение даты рождения, используя выпадающие списки, проверка даты рождения на главной странице</title>
+            <title>Авторизация на vk.com, изменение даты рождения, проверка даты рождения на главной странице</title>
             <meta>
               <properties/>
             </meta>
@@ -608,7 +608,7 @@ So that </localizedNarrative>
               <string>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</string>
               <string>Then происходит авторизация пользователя и заголовок страницы &apos;Новости&apos;</string>
               <string>When пользователь переходит в настройки</string>
-              <string>When пользователь изменяет дату рождения на текущую - &apos;55&apos; лет</string>
+              <string>When пользователь изменяет дату рождения на текущую - &apos;27&apos; лет</string>
               <string>Then появляется сообщение &apos;Изменения сохранены.&apos;</string>
               <string>When пользователь переходит на страницу профиля</string>
               <string>Then дата рождения равна текущей за вычетом необходимого кол-ва лет</string>
@@ -629,49 +629,49 @@ So that </localizedNarrative>
                   <step>Given пользователь открывает главную страницу VK</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Given пользователь открывает главную страницу VK</parametrisedStep>
-                  <durationInMillis>7302</durationInMillis>
+                  <durationInMillis>3268</durationInMillis>
                 </successful>
                 <successful>
                   <step>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</parametrisedStep>
-                  <durationInMillis>5292</durationInMillis>
+                  <durationInMillis>2840</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then происходит авторизация пользователя и заголовок страницы &apos;Новости&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then происходит авторизация пользователя и заголовок страницы &apos;Новости&apos;</parametrisedStep>
-                  <durationInMillis>423</durationInMillis>
+                  <durationInMillis>305</durationInMillis>
                 </successful>
                 <successful>
                   <step>When пользователь переходит в настройки</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When пользователь переходит в настройки</parametrisedStep>
-                  <durationInMillis>1183</durationInMillis>
+                  <durationInMillis>730</durationInMillis>
                 </successful>
                 <successful>
-                  <step>When пользователь изменяет дату рождения на текущую - &apos;55&apos; лет</step>
+                  <step>When пользователь изменяет дату рождения на текущую - &apos;27&apos; лет</step>
                   <type>SUCCESSFUL</type>
-                  <parametrisedStep>When пользователь изменяет дату рождения на текущую - &apos;55&apos; лет</parametrisedStep>
-                  <durationInMillis>2144</durationInMillis>
+                  <parametrisedStep>When пользователь изменяет дату рождения на текущую - &apos;27&apos; лет</parametrisedStep>
+                  <durationInMillis>1187</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then появляется сообщение &apos;Изменения сохранены.&apos;</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then появляется сообщение &apos;Изменения сохранены.&apos;</parametrisedStep>
-                  <durationInMillis>627</durationInMillis>
+                  <durationInMillis>308</durationInMillis>
                 </successful>
                 <successful>
                   <step>When пользователь переходит на страницу профиля</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>When пользователь переходит на страницу профиля</parametrisedStep>
-                  <durationInMillis>1289</durationInMillis>
+                  <durationInMillis>759</durationInMillis>
                 </successful>
                 <successful>
                   <step>Then дата рождения равна текущей за вычетом необходимого кол-ва лет</step>
                   <type>SUCCESSFUL</type>
                   <parametrisedStep>Then дата рождения равна текущей за вычетом необходимого кол-ва лет</parametrisedStep>
-                  <durationInMillis>705</durationInMillis>
+                  <durationInMillis>383</durationInMillis>
                 </successful>
               </results>
             </steps>
@@ -682,7 +682,7 @@ So that </localizedNarrative>
               <properties/>
             </storyAndScenarioMeta>
             <scenario>
-              <title>Авторизация на vk.com, изменение даты рождения, используя выпадающие списки, проверка даты рождения на главной странице</title>
+              <title>Авторизация на vk.com, изменение даты рождения, проверка даты рождения на главной странице</title>
               <meta>
                 <properties/>
               </meta>
@@ -759,7 +759,7 @@ So that </localizedNarrative>
                 <string>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</string>
                 <string>Then происходит авторизация пользователя и заголовок страницы &apos;Новости&apos;</string>
                 <string>When пользователь переходит в настройки</string>
-                <string>When пользователь изменяет дату рождения на текущую - &apos;55&apos; лет</string>
+                <string>When пользователь изменяет дату рождения на текущую - &apos;27&apos; лет</string>
                 <string>Then появляется сообщение &apos;Изменения сохранены.&apos;</string>
                 <string>When пользователь переходит на страницу профиля</string>
                 <string>Then дата рождения равна текущей за вычетом необходимого кол-ва лет</string>
@@ -773,7 +773,7 @@ So that </localizedNarrative>
       <beforeSteps/>
       <afterSteps/>
       <timing>
-        <durationInMillis>23008</durationInMillis>
+        <durationInMillis>12081</durationInMillis>
       </timing>
       <givenStory>false</givenStory>
     </performableStory>
@@ -876,31 +876,31 @@ So that </localizedNarrative>
               <step>Given пользователь открывает главную страницу VK</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given пользователь открывает главную страницу VK</parametrisedStep>
-              <durationInMillis>9404</durationInMillis>
+              <durationInMillis>4622</durationInMillis>
             </successful>
             <successful>
               <step>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</parametrisedStep>
-              <durationInMillis>5105</durationInMillis>
+              <durationInMillis>2748</durationInMillis>
             </successful>
             <successful>
               <step>Then происходит авторизация пользователя</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then происходит авторизация пользователя</parametrisedStep>
-              <durationInMillis>444</durationInMillis>
+              <durationInMillis>301</durationInMillis>
             </successful>
             <successful>
               <step>When поиск пользователя: &apos;Корнеев Влад&apos; страна: &apos;Россия&apos; город: &apos;Москва&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When поиск пользователя: &apos;Корнеев Влад&apos; страна: &apos;Россия&apos; город: &apos;Москва&apos;</parametrisedStep>
-              <durationInMillis>7387</durationInMillis>
+              <durationInMillis>4337</durationInMillis>
             </successful>
             <successful>
               <step>Then будут найдены пользователи согласно условиям</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then будут найдены пользователи согласно условиям</parametrisedStep>
-              <durationInMillis>402</durationInMillis>
+              <durationInMillis>372</durationInMillis>
             </successful>
           </results>
         </steps>
@@ -997,7 +997,7 @@ So that </localizedNarrative>
     </performableScenario>
     <performableScenario>
       <scenario>
-        <title>Авторизация на vk.com, изменение даты рождения, используя выпадающие списки, проверка даты рождения на главной странице</title>
+        <title>Авторизация на vk.com, изменение даты рождения, проверка даты рождения на главной странице</title>
         <meta>
           <properties/>
         </meta>
@@ -1074,7 +1074,7 @@ So that </localizedNarrative>
           <string>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</string>
           <string>Then происходит авторизация пользователя и заголовок страницы &apos;Новости&apos;</string>
           <string>When пользователь переходит в настройки</string>
-          <string>When пользователь изменяет дату рождения на текущую - &apos;55&apos; лет</string>
+          <string>When пользователь изменяет дату рождения на текущую - &apos;27&apos; лет</string>
           <string>Then появляется сообщение &apos;Изменения сохранены.&apos;</string>
           <string>When пользователь переходит на страницу профиля</string>
           <string>Then дата рождения равна текущей за вычетом необходимого кол-ва лет</string>
@@ -1095,49 +1095,49 @@ So that </localizedNarrative>
               <step>Given пользователь открывает главную страницу VK</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Given пользователь открывает главную страницу VK</parametrisedStep>
-              <durationInMillis>7302</durationInMillis>
+              <durationInMillis>3268</durationInMillis>
             </successful>
             <successful>
               <step>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</parametrisedStep>
-              <durationInMillis>5292</durationInMillis>
+              <durationInMillis>2840</durationInMillis>
             </successful>
             <successful>
               <step>Then происходит авторизация пользователя и заголовок страницы &apos;Новости&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then происходит авторизация пользователя и заголовок страницы &apos;Новости&apos;</parametrisedStep>
-              <durationInMillis>423</durationInMillis>
+              <durationInMillis>305</durationInMillis>
             </successful>
             <successful>
               <step>When пользователь переходит в настройки</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When пользователь переходит в настройки</parametrisedStep>
-              <durationInMillis>1183</durationInMillis>
+              <durationInMillis>730</durationInMillis>
             </successful>
             <successful>
-              <step>When пользователь изменяет дату рождения на текущую - &apos;55&apos; лет</step>
+              <step>When пользователь изменяет дату рождения на текущую - &apos;27&apos; лет</step>
               <type>SUCCESSFUL</type>
-              <parametrisedStep>When пользователь изменяет дату рождения на текущую - &apos;55&apos; лет</parametrisedStep>
-              <durationInMillis>2144</durationInMillis>
+              <parametrisedStep>When пользователь изменяет дату рождения на текущую - &apos;27&apos; лет</parametrisedStep>
+              <durationInMillis>1187</durationInMillis>
             </successful>
             <successful>
               <step>Then появляется сообщение &apos;Изменения сохранены.&apos;</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then появляется сообщение &apos;Изменения сохранены.&apos;</parametrisedStep>
-              <durationInMillis>627</durationInMillis>
+              <durationInMillis>308</durationInMillis>
             </successful>
             <successful>
               <step>When пользователь переходит на страницу профиля</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>When пользователь переходит на страницу профиля</parametrisedStep>
-              <durationInMillis>1289</durationInMillis>
+              <durationInMillis>759</durationInMillis>
             </successful>
             <successful>
               <step>Then дата рождения равна текущей за вычетом необходимого кол-ва лет</step>
               <type>SUCCESSFUL</type>
               <parametrisedStep>Then дата рождения равна текущей за вычетом необходимого кол-ва лет</parametrisedStep>
-              <durationInMillis>705</durationInMillis>
+              <durationInMillis>383</durationInMillis>
             </successful>
           </results>
         </steps>
@@ -1148,7 +1148,7 @@ So that </localizedNarrative>
           <properties/>
         </storyAndScenarioMeta>
         <scenario>
-          <title>Авторизация на vk.com, изменение даты рождения, используя выпадающие списки, проверка даты рождения на главной странице</title>
+          <title>Авторизация на vk.com, изменение даты рождения, проверка даты рождения на главной странице</title>
           <meta>
             <properties/>
           </meta>
@@ -1225,7 +1225,7 @@ So that </localizedNarrative>
             <string>When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;</string>
             <string>Then происходит авторизация пользователя и заголовок страницы &apos;Новости&apos;</string>
             <string>When пользователь переходит в настройки</string>
-            <string>When пользователь изменяет дату рождения на текущую - &apos;55&apos; лет</string>
+            <string>When пользователь изменяет дату рождения на текущую - &apos;27&apos; лет</string>
             <string>Then появляется сообщение &apos;Изменения сохранены.&apos;</string>
             <string>When пользователь переходит на страницу профиля</string>
             <string>Then дата рождения равна текущей за вычетом необходимого кол-ва лет</string>

@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JBehave</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="259691d6bdc9cc7bc438aaff2e5877d6.html">Testing</a>
+                > <a
+                    href="c519f600710ab0f90ea4940613a01da1.html">Авторизация на vk.com, изменение даты рождения, проверка дат&hellip; </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="d782c44557441225cc92a5e35bf4b23b.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="5f5dee50b3955739bfb580c79f480d2e.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-05-2017 02:12</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Testing </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="38aada487c3cde380bc0961480560e34.html">Consult Dictionary
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Авторизация на Vk.Com, изменение даты рождения, проверка даты рождения на главной странице
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_e9b8ee61a923275b3419389bdf68da21.png" title="Given пользователь открывает главную страницу VK" width="960"/>
+                <img src="e9b8ee61a923275b3419389bdf68da21.png" title="Is the home page" width="960"/>
+                <img src="scaled_2c7c9dc23c9702d6882afa7759d7f878.png" title="When пользователь вводит login: '89169577765' и password: 'Сложныйпароль'" width="960"/>
+                <img src="scaled_7ea7e16714c56919e71cd8f1e8fced25.png" title="Enters login: 89169577765" width="960"/>
+                <img src="scaled_5864ab89a04ac236189360e00fcce3fc.png" title="Enters login: 89169577765" width="960"/>
+                <img src="5864ab89a04ac236189360e00fcce3fc.png" title="Enters pass: Сложныйпароль" width="960"/>
+                <img src="scaled_261f46a46b3ff1a26a94007d75797935.png" title="Enters pass: Сложныйпароль" width="960"/>
+                <img src="261f46a46b3ff1a26a94007d75797935.png" title="Click sign in button" width="960"/>
+                <img src="scaled_52998c6ac82b393bbfe6c0d70d180778.png" title="Click sign in button" width="960"/>
+                <img src="2c7c9dc23c9702d6882afa7759d7f878.png" title="Then происходит авторизация пользователя и заголовок страницы 'Новости'" width="960"/>
+                <img src="2c7c9dc23c9702d6882afa7759d7f878.png" title="Check sign in: Новости" width="960"/>
+                <img src="scaled_d25f73194bf6015cdfbe349277c600c4.png" title="When пользователь переходит в настройки" width="960"/>
+                <img src="scaled_7cafe89cac55264e54154430a28b1984.png" title="When пользователь изменяет дату рождения на текущую - '27' лет" width="960"/>
+                <img src="scaled_1a4749729da6b82c809246661857de00.png" title="Change date: 27" width="960"/>
+                <img src="scaled_a24967e2dfd4d5460a65296254428a4d.png" title="Then появляется сообщение 'Изменения сохранены.'" width="960"/>
+                <img src="scaled_d66e6065cd769b29f927548c4745ce1d.png" title="Then появляется сообщение 'Изменения сохранены.'" width="960"/>
+                <img src="scaled_26d6282f01c5baa7cfc445f34ebd4971.png" title="Check msg: Изменения сохранены." width="960"/>
+                <img src="scaled_84d522b96b57f2d389098be44115eaf4.png" title="Check msg: Изменения сохранены." width="960"/>
+                <img src="scaled_853ec485c9c2b29d4ca06c8576fb032d.png" title="When пользователь переходит на страницу профиля" width="960"/>
+                <img src="scaled_0de5b4a0d15a57be74c6a0511efaaa03.png" title="When пользователь переходит на страницу профиля" width="960"/>
+                <img src="scaled_fcd5ef5067d003616b4d9a79a51d9bbd.png" title="Click my page" width="960"/>
+                <img src="0de5b4a0d15a57be74c6a0511efaaa03.png" title="Click my page" width="960"/>
+                <img src="0de5b4a0d15a57be74c6a0511efaaa03.png" title="Then дата рождения равна текущей за вычетом необходимого кол-ва лет" width="960"/>
+                <img src="0de5b4a0d15a57be74c6a0511efaaa03.png" title="Check change b day: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.2.2-rc.1</span>
+</div>
+</body>
+</html>

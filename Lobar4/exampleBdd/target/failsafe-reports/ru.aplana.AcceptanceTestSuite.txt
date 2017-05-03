@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ru.aplana.AcceptanceTestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 53.094 sec - in ru.aplana.AcceptanceTestSuite
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.01 sec - in ru.aplana.AcceptanceTestSuite

@@ -94,6 +94,7 @@
                     <argLine>-Xmx512m</argLine>
                     <systemPropertyVariables>
                         <webdriver.driver>${webdriver.driver}</webdriver.driver>
+                        <webdriver.timeouts.implicitlywait>10000</webdriver.timeouts.implicitlywait>
                     </systemPropertyVariables>
                 </configuration>
                 <executions>
