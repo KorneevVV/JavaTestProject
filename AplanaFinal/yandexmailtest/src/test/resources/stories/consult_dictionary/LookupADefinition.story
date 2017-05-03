@@ -1,8 +1,4 @@
-Lookup a definition
-Narrative:
-In order to talk better
-As an English student
-I want to look up word definitions
+User log in yandex mail, change sign and check new sign
 
 Scenario: User log in yandex mail, change sign and check new sign
 Given User enter main yandex page, go to mail page and log in
