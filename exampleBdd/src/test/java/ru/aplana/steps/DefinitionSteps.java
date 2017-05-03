@@ -12,20 +12,21 @@ public class DefinitionSteps {
     @Steps
     EndUserSteps endUser;
 
-    @Given("the user is on the Github Login page and input login '$login' and password '$password'")
+    @Given("пользователь входит в свою учетную запись с логином '$user' и паролем '$password'")
     public void givenTheUserIsOnTheWikionaryHomePage(String login,String password) {
         endUser.is_the_home_page();
         endUser.login_account(login,password);
     }
 
-    @When("a user add a collaborator '$user' to the second project in his Github")
+    @When("когда пользователь изменил имя в настройках на '$user' и поставил необходимые настройки")
     public void whenTheUserLooksUpTheDefinitionOf(String user) {
-        endUser.add_user(user);
+        endUser.do_settings(user);
     }
 
-    @Then("he should see the user name of collaborator '$user' in the list of collaborators and exit the account")
+    @Then("пользователь должен увидеть имя '$user' в профиле.")
     public void thenTheyShouldSeeADefinitionContainingTheWords(String user) {
         endUser.check_username(user);
+        endUser.plusdate();
     }
 
 }

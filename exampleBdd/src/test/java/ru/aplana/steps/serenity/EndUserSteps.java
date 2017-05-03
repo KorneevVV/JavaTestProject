@@ -27,8 +27,8 @@ public class EndUserSteps {
     }
 
     @Step
-    public void add_user(String user) {
-    githubLogin.add_username(user);
+    public void do_settings(String user) {
+    githubLogin.do_set(user);
     }
 
     @Step
@@ -36,5 +36,8 @@ public class EndUserSteps {
     githubLogin.log_in(login,password);
     }
 
+    @Step
+    public void plusdate(){
+        githubLogin.pd();}
 
 }
