@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Lookup a definition","Add collaborator 'nzvonilov'","SUCCESS","2017-04-28T01:24:34.692+03:00","0.0","13.96"
+"Lookup a definition","Looking up the definition of 'apple'","SUCCESS","2017-04-27T21:07:41.513+03:00","0.0","9.64"
+"Lookup a definition","Looking up the definition of 'pear'","SUCCESS","2017-04-27T21:07:51.206+03:00","0.0","6.7"
+"Lookup a definition","написать письмо 'vo1k@list.ru'","ERROR","2017-05-03T20:28:54.567+03:00","0.0","29.66"

@@ -1,0 +1,5 @@
+ru\aplana\steps\DefinitionSteps.class
+ru\aplana\pages\rambtest.class
+ru\aplana\pages\rambtest$1.class
+ru\aplana\steps\serenity\EndUserSteps.class
+ru\aplana\AcceptanceTestSuite.class
