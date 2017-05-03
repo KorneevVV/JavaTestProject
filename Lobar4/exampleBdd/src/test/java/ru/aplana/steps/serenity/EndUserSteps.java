@@ -5,12 +5,10 @@ import ru.aplana.pages.HomePage;
 import net.thucydides.core.annotations.Step;
 
 import static org.junit.Assert.assertTrue;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.hasItem;
 
 public class EndUserSteps {
 
-    HomePage homePage;
+    private HomePage homePage;
 
     @Step
     public void is_the_home_page() {
@@ -35,7 +33,12 @@ public class EndUserSteps {
     @Step
     public void checkSignIn(String title) {
         assertTrue(homePage.takeLinkMyPage());
-        assertTrue(title.equals(homePage.getTitle()));
+        Assert.assertEquals(title, homePage.getTitle());
+    }
+
+    @Step
+    public void checkSignIn() {
+        assertTrue(homePage.takeLinkMyPage());
     }
 
     @Step
@@ -63,11 +66,6 @@ public class EndUserSteps {
     }
 
     @Step
-    public void checkSignIn() {
-        assertTrue(homePage.takeLinkMyPage());
-    }
-
-    @Step
     public void changeDate(Integer yearsInt) {
         homePage.changeDate(yearsInt);
     }
@@ -75,5 +73,15 @@ public class EndUserSteps {
     @Step
     public void checkMsg(String msg) {
         homePage.checkMsg(msg);
+    }
+
+    @Step
+    public void clickMyPage() {
+        homePage.clickMyPage();
+    }
+
+    @Step
+    public void checkChangeBDay() {
+        homePage.checkChangeBDay();
     }
 }

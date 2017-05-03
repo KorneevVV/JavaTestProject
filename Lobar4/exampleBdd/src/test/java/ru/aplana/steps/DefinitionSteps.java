@@ -62,4 +62,13 @@ public class DefinitionSteps {
         endUsersSteps.checkMsg(msg);
     }
 
+    @When("пользователь переходит на страницу профиля")
+    public void whenTheUsersClickMyPage() {
+        endUsersSteps.clickMyPage();
+    }
+
+    @Then("дата рождения равна текущей за вычетом необходимого кол-ва лет")
+    public void thenCheckBDay() {
+        endUsersSteps.checkChangeBDay();
+    }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.aplana.AcceptanceTestSuite" time="26.563" tests="11" errors="1" skipped="1" failures="2">
+<testsuite name="ru.aplana.AcceptanceTestSuite" time="51.793" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2016.2.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -11,7 +11,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7535"/>
+    <property name="idea.launcher.port" value="7537"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -62,140 +62,23 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="BeforeStories" classname="java.lang.Object" time="0.011"/>
-  <testcase name="Given пользователь открывает главную страницу VK" classname="ru.aplana.steps.DefinitionSteps" time="11.245"/>
-  <testcase name="When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;" classname="ru.aplana.steps.DefinitionSteps" time="5.754"/>
-  <testcase name="Then происходит авторизация пользователя" classname="ru.aplana.steps.DefinitionSteps" time="0.583"/>
-  <testcase name="When поиск пользователя: &apos;Корнеев Влад&apos; страна: &apos;Россия&apos; город: &apos;Москва&apos;" classname="ru.aplana.steps.DefinitionSteps" time="1.75">
-    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=57.0.2987.133)&#10;  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 158 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;Ксения-ПК&apos;, ip: &apos;192.168.150.142&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\9E0A~1\AppData\Local\Temp\scoped_dir4428_864}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: e63498578258515f663c9c36c0c7bcf3" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: stale element reference: element is not attached to the page document
-  (Session info: chrome=57.0.2987.133)
-  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 158 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'Ксения-ПК', ip: '192.168.150.142', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\9E0A~1\AppData\Local\Temp\scoped_dir4428_864}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: e63498578258515f663c9c36c0c7bcf3
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:949)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at ru.aplana.pages.HomePage.searchOnBar(HomePage.java:87)
-	at ru.aplana.steps.serenity.EndUserSteps.searchUser(EndUserSteps.java:42)
-	at ru.aplana.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$21bb35de.CGLIB$searchUser$10(<generated>)
-	at ru.aplana.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$21bb35de$$FastClassByCGLIB$$8d097f1.invoke(<generated>)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at ru.aplana.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$21bb35de.searchUser(<generated>)
-	at ru.aplana.steps.DefinitionSteps.whenSearchUsers(DefinitionSteps.java:39)
-]]></error>
-    <system-out><![CDATA[When ����� ������������: '������� ����' ������: '������' �����: '������' (FAILED)
-(net.serenitybdd.core.exceptions.SerenityManagedException: stale element reference: element is not attached to the page document
-  (Session info: chrome=57.0.2987.133)
-  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 158 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: '������-��', ip: '192.168.150.142', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\9E0A~1\AppData\Local\Temp\scoped_dir4428_864}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: e63498578258515f663c9c36c0c7bcf3)
-]]></system-out>
-  </testcase>
-  <testcase name="Then будут найдены пользователи согласно условиям" classname="ru.aplana.steps.DefinitionSteps" time="0">
-    <skipped/>
-    <system-out><![CDATA[Then ����� ������� ������������ �������� �������� (NOT PERFORMED)
-]]></system-out>
-  </testcase>
-  <testcase name="Scenario: Авторизация на vk.com, поиск человека по параметрам, используя выпадающие списки, проверка результатов поиска" classname="Scenario: Авторизация на vk.com, поиск человека по параметрам, используя выпадающие списки, проверка результатов поиска" time="2.354">
-    <failure message="scenario failed!" type="java.lang.AssertionError">java.lang.AssertionError: scenario failed!
-	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterScenario(JUnitScenarioReporter.java:218)
-	at org.jbehave.core.reporters.DelegatingStoryReporter.afterScenario(DelegatingStoryReporter.java:43)
-	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterScenario(ConcurrentStoryReporter.java:176)
-	at org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:890)
-	at org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)
-	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)
-	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)
-	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)
-	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)
-	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:748)
-</failure>
-    <system-out><![CDATA[
-net.serenitybdd.core.exceptions.SerenityManagedException: stale element reference: element is not attached to the page document
-  (Session info: chrome=57.0.2987.133)
-  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 158 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: '������-��', ip: '192.168.150.142', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\9E0A~1\AppData\Local\Temp\scoped_dir4428_864}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: e63498578258515f663c9c36c0c7bcf3
-	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at ru.aplana.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$21bb35de.searchUser(<generated>)
-	at ru.aplana.steps.DefinitionSteps.whenSearchUsers(DefinitionSteps.java:39)
-	(reflection-invoke)
-	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
-	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
-...
-]]></system-out>
-    <system-err><![CDATA[[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
-
-TEST FAILED WITH ERROR: ����������� �� vk.com, ����� �������� �� ����������, ��������� ���������� ������, �������� ����������� ������
----------------------------------------------------------------------
-[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Search user: ������� ����
-[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - stale element reference: element is not attached to the page document  (Session info: chrome=57.0.2987.133)  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 158 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.htmlBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'System info: host: '������-��', ip: '192.168.150.142', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\9E0A~1\AppData\Local\Temp\scoped_dir4428_864}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]Session ID: e63498578258515f663c9c36c0c7bcf3
-]]></system-err>
-  </testcase>
-  <testcase name="LookupADefinition.story" classname="LookupADefinition.story" time="2.367">
-    <failure message="story failed!" type="java.lang.AssertionError">java.lang.AssertionError: story failed!
-	at de.codecentric.jbehave.junit.monitoring.JUnitScenarioReporter.afterStory(JUnitScenarioReporter.java:143)
-	at org.jbehave.core.reporters.DelegatingStoryReporter.afterStory(DelegatingStoryReporter.java:49)
-	at org.jbehave.core.reporters.ConcurrentStoryReporter.afterStory(ConcurrentStoryReporter.java:122)
-	at org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:792)
-	at org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)
-	at org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)
-	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)
-	at org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:748)
-</failure>
-    <system-out><![CDATA[
-]]></system-out>
-  </testcase>
-  <testcase name="Scenario: " classname="Scenario: " time="0.004"/>
-  <testcase name="Testing.story" classname="Testing.story" time="0.006"/>
-  <testcase name="AfterStories" classname="java.lang.Object" time="2.489"/>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0"/>
+  <testcase name="Given пользователь открывает главную страницу VK" classname="ru.aplana.steps.DefinitionSteps" time="10.06"/>
+  <testcase name="When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;" classname="ru.aplana.steps.DefinitionSteps" time="5.492"/>
+  <testcase name="Then происходит авторизация пользователя" classname="ru.aplana.steps.DefinitionSteps" time="0.6"/>
+  <testcase name="When поиск пользователя: &apos;Корнеев Влад&apos; страна: &apos;Россия&apos; город: &apos;Москва&apos;" classname="ru.aplana.steps.DefinitionSteps" time="7.649"/>
+  <testcase name="Then будут найдены пользователи согласно условиям" classname="ru.aplana.steps.DefinitionSteps" time="0.55"/>
+  <testcase name="Scenario: Авторизация на vk.com, поиск человека по параметрам, используя выпадающие списки, проверка результатов поиска" classname="Scenario: Авторизация на vk.com, поиск человека по параметрам, используя выпадающие списки, проверка результатов поиска" time="0.835"/>
+  <testcase name="LookupADefinition.story" classname="LookupADefinition.story" time="0.863"/>
+  <testcase name="Given пользователь открывает главную страницу VK​" classname="ru.aplana.steps.DefinitionSteps" time="7.515"/>
+  <testcase name="When пользователь вводит login: &apos;89169577765&apos; и password: &apos;Сложныйпароль&apos;​" classname="ru.aplana.steps.DefinitionSteps" time="5.68"/>
+  <testcase name="Then происходит авторизация пользователя и заголовок страницы &apos;Новости&apos;" classname="ru.aplana.steps.DefinitionSteps" time="0.58"/>
+  <testcase name="When пользователь переходит в настройки" classname="ru.aplana.steps.DefinitionSteps" time="1.348"/>
+  <testcase name="When пользователь изменяет дату рождения на текущую - &apos;55&apos; лет" classname="ru.aplana.steps.DefinitionSteps" time="2.442"/>
+  <testcase name="Then появляется сообщение &apos;Изменения сохранены.&apos;" classname="ru.aplana.steps.DefinitionSteps" time="0.927"/>
+  <testcase name="When пользователь переходит на страницу профиля" classname="ru.aplana.steps.DefinitionSteps" time="1.611"/>
+  <testcase name="Then дата рождения равна текущей за вычетом необходимого кол-ва лет" classname="ru.aplana.steps.DefinitionSteps" time="0.914"/>
+  <testcase name="Scenario: Авторизация на vk.com, изменение даты рождения, используя выпадающие списки, проверка даты рождения на главной странице" classname="Scenario: Авторизация на vk.com, изменение даты рождения, используя выпадающие списки, проверка даты рождения на главной странице" time="0.986"/>
+  <testcase name="Testing.story" classname="Testing.story" time="0.996"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="2.745"/>
 </testsuite>

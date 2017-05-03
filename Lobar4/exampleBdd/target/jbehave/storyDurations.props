@@ -1,7 +1,7 @@
 #org.jbehave.core.embedder.StoryManager
-#Wed May 03 20:24:34 MSK 2017
+#Wed May 03 23:56:10 MSK 2017
 threads=1
-total=21000
-threadAverage=21000
-stories/consult_dictionary/LookupADefinition.story=21000
-stories/consult_dictionary/Testing.story=0
+total=48000
+threadAverage=48000
+stories/consult_dictionary/LookupADefinition.story=26000
+stories/consult_dictionary/Testing.story=22000

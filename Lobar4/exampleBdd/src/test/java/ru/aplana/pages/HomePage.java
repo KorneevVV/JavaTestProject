@@ -6,6 +6,8 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 
+import java.time.Month;
+import java.time.format.TextStyle;
 import java.util.*;
 
 import static org.junit.Assert.assertTrue;
@@ -64,6 +66,19 @@ public class HomePage extends PageObject {
     @FindBy(xpath = "//button[@class='flat_button button_big_width']")
     private WebElementFacade linkSave;
 
+    @FindBy(xpath = "//div/h2[@class='page_name']")
+    private WebElementFacade linkPageName;
+
+    private Calendar calendar = getCalendar();
+
+    private int yearMod;
+
+    private Calendar getCalendar() {
+        Calendar calendar = Calendar.getInstance(TimeZone.getDefault(), new Locale("ru", "RU"));
+        calendar.setTime(new Date());
+        return calendar;
+    }
+
     public void enterLogin(String keyword) {
         login.type(keyword);
     }
@@ -116,36 +131,63 @@ public class HomePage extends PageObject {
     }
 
     public void changeDate(Integer yearsInt) {
-        Calendar calendar = Calendar.getInstance(TimeZone.getDefault(), Locale.getDefault());
-        calendar.setTime(new Date());
-        int year = calendar.get(Calendar.YEAR) - yearsInt;
-        int month = calendar.get(Calendar.MONTH) + 1; // январь - 0, т.о. май - 4
-        int day = calendar.get(Calendar.DAY_OF_MONTH);
+        yearMod = getYearMod(yearsInt);
+        int month = getMonth();
+        int day = getDay();
 
         linkDropdownDay.isVisible();
         linkDropdownDay.click();
         String xPathDay = "//div[@class='pedit_bday fl_l']/div/div/div/ul/li[" + day + "]";
         WebElementFacade selectedDay = find(By.xpath(xPathDay));
-        selectedDay.isVisible();
         selectedDay.click();
 
         linkDropdownMonth.click();
         String xPathMonth = "//div[@class='pedit_bmonth fl_l']/div/div/div/ul/li[" + month + "]";
         WebElementFacade selectedMonth = find(By.xpath(xPathMonth));
-        selectedMonth.isVisible();
         selectedMonth.click();
 
         linkDropdownYears.click();
-        String xPathYears = "//div[@class='pedit_byear fl_l']/div/div/div/ul/li[contains(.," + year + ")]"; // [contains(.,2003)]
+        String xPathYears = "//div[@class='pedit_byear fl_l']/div/div/div/ul/li[contains(.," + yearMod + ")]";
         WebElementFacade selectedYears = find(By.xpath(xPathYears));
-        selectedYears.isVisible();
         selectedYears.click();
         linkSave.click();
+    }
+
+    private int getDay() {
+        return calendar.get(Calendar.DAY_OF_MONTH);
+    }
+
+    private int getMonth() {
+        return calendar.get(Calendar.MONTH) + 1; // январь - 0, т.о. май - 4;
+    }
+
+    private int getYear() {
+        return calendar.get(Calendar.YEAR);
+    }
+
+    private int getYearMod(int years) {
+        return calendar.get(Calendar.YEAR) - years;
     }
 
     public void checkMsg(String msg) {
         String xPath = "//b[contains(.,'" + msg + "')]";
         WebElementFacade linkMsg = find(By.xpath(xPath));
         assertTrue(linkMsg.isVisible());
+    }
+
+    public void clickMyPage() {
+        linkMyPage.click();
+        assertTrue(linkPageName.isVisible());
+    }
+
+    public void checkChangeBDay() {
+        Month month = Month.of(getMonth());
+        String dayAndMonth = getDay() + " " + month.getDisplayName(TextStyle.FULL, new Locale("ru", "RU"));
+        String xPathDM = "//a[contains(.,'" + dayAndMonth + "')]";
+        WebElementFacade linkDayMonth = find(By.xpath(xPathDM));
+        assertTrue(linkDayMonth.isVisible());
+        String xPathY = "//a[contains(.,'" + yearMod + "')]";
+        WebElementFacade linkYear = find(By.xpath(xPathY));
+        assertTrue(linkYear.isVisible());
     }
 }
