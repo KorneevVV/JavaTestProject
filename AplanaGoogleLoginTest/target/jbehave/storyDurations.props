@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Wed May 03 13:44:58 MSK 2017
+threads=1
+total=24000
+threadAverage=24000
+consult_dictionary/Story.story=24000
