@@ -1,8 +1,11 @@
 package ru.aplana.finaltest.steps.serenity;
 
-import ru.aplana.finaltest.model.User;
-import ru.aplana.finaltest.pages.*;
 import net.thucydides.core.annotations.Step;
+import ru.aplana.finaltest.model.User;
+import ru.aplana.finaltest.pages.SettingsPage;
+import ru.aplana.finaltest.pages.YandexLoginPage;
+import ru.aplana.finaltest.pages.YandexMailPage;
+import ru.aplana.finaltest.pages.YandexPage;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -23,23 +26,27 @@ public class EndUserSteps {
         yandexPage.enterMailPage();
         yandexLoginPage.logIn(user_1.getLogin(), user_1.getPassword());
     }
+
     @Step
     public void openUserDataSettings() {
         yandexMailPage.openSettings();
         yandexMailPage.openUserDataSettings();
     }
+
     @Step
     public void editUserDataSetting() {
         settingsPage.enterUserName(user_1.getLogin());
         settingsPage.addSign(dateFormat.format(date));
     }
+
     @Step
     public void createNewMailCheckSign() {
         yandexMailPage.writeNewMailForChecking();
         yandexMailPage.checkSign(dateFormat.format(date));
     }
+
     @Step
-    public void goToMails(){
+    public void goToMails() {
         yandexMailPage.open();
 
     }
