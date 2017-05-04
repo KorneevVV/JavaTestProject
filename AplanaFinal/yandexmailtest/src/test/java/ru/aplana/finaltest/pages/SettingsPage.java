@@ -7,9 +7,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * Created by AlisaHP on 03.05.2017.
- */
 public class SettingsPage extends PageObject {
     @FindBy(xpath = "//input[@name='from_name']")
     private WebElementFacade enterNameField;
@@ -32,23 +29,25 @@ public class SettingsPage extends PageObject {
     private WebElementFacade mailButton;
 
 
-    public void enterUserName(String name){
+    public void enterUserName(String name) {
         waitint("//input[@name='from_name']");
         enterNameField.clear();
         enterNameField.sendKeys(name);
     }
-    public void addSign(String sign)  {
+
+    public void addSign(String sign) {
         enterSignField.sendKeys(sign);
         mSleep(5000);
         addSignButton.click();
         mSleep(5000);
     }
 
-    private void waitint(String xpathElement){
+    private void waitint(String xpathElement) {
         WebDriverWait wait = new WebDriverWait(getDriver(), 15);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpathElement)));
     }
-    private void mSleep(long ms){
+
+    private void mSleep(long ms) {
         try {
             Thread.sleep(ms);
         } catch (InterruptedException e) {
