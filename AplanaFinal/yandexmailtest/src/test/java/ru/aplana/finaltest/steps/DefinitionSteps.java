@@ -4,7 +4,6 @@ import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
-
 import ru.aplana.finaltest.steps.serenity.EndUserSteps;
 
 public class DefinitionSteps {
@@ -13,21 +12,23 @@ public class DefinitionSteps {
     EndUserSteps endUser;
 
     @Given("User enter main yandex page, go to mail page and log in")
-    public void logInYandexMail(){endUser.logIn();}
+    public void logInYandexMail() {
+        endUser.logIn();
+    }
 
     @When("User edit user's data settings")
-    public void editDataSetting(){
+    public void editDataSetting() {
         endUser.openUserDataSettings();
         endUser.editUserDataSetting();
     }
 
     @When("User go to mails")
-    public void UserGoToMails(){
+    public void UserGoToMails() {
         endUser.goToMails();
     }
 
     @Then("User create new mail and check the sign")
-    public void UserCheckSign(){
+    public void UserCheckSign() {
         endUser.createNewMailCheckSign();
     }
 
