@@ -1,0 +1,1125 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "consult_dictionary/EndCourse.story",
+        "description": {
+          "descriptionAsString": ""
+        },
+        "narrative": {
+          "inOrderTo": "",
+          "asA": "",
+          "iWantTo": "",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "scenario description",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given пользователь на домашней странице Гугл",
+              "When пользователь переходит на страницу аутентификации почты",
+              "When вводим почту 'pankovtestaplana@gmail.com'",
+              "When вводим пароль от почты 'kracoz13' и авторизуемся",
+              "When Выбираем виджет настроек",
+              "When Выбираем вкладку НАСТРОЙКИ в выпадающем списке виджета настроек",
+              "When Устанавливаем подпись в виде текущей даты",
+              "When меняем чекбокс подписи",
+              "When Сохраняем изменения в настройках",
+              "Then пишем письмо - адрессат: 'pankovtestaplana@gmail.com', текст письма : 'Serenity test',тема письма:'Тест аплана'"
+            ]
+          }
+        ],
+        "name": "EndCourse.story"
+      },
+      "localizedNarrative": "As a \nI want to \nSo that ",
+      "allowed": true,
+      "status": "FAILED",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "scenario description",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given пользователь на домашней странице Гугл",
+              "When пользователь переходит на страницу аутентификации почты",
+              "When вводим почту 'pankovtestaplana@gmail.com'",
+              "When вводим пароль от почты 'kracoz13' и авторизуемся",
+              "When Выбираем виджет настроек",
+              "When Выбираем вкладку НАСТРОЙКИ в выпадающем списке виджета настроек",
+              "When Устанавливаем подпись в виде текущей даты",
+              "When меняем чекбокс подписи",
+              "When Сохраняем изменения в настройках",
+              "Then пишем письмо - адрессат: 'pankovtestaplana@gmail.com', текст письма : 'Serenity test',тема письма:'Тест аплана'"
+            ]
+          },
+          "storyPath": "consult_dictionary/EndCourse.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given пользователь на домашней странице Гугл",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given пользователь на домашней странице Гугл",
+                  "durationInMillis": 3364
+                },
+                {
+                  "step": "When пользователь переходит на страницу аутентификации почты",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When пользователь переходит на страницу аутентификации почты",
+                  "durationInMillis": 704
+                },
+                {
+                  "step": "When вводим почту 'pankovtestaplana@gmail.com'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When вводим почту 'pankovtestaplana@gmail.com'",
+                  "durationInMillis": 836
+                },
+                {
+                  "step": "When вводим пароль от почты 'kracoz13' и авторизуемся",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When вводим пароль от почты 'kracoz13' и авторизуемся",
+                  "durationInMillis": 4418
+                },
+                {
+                  "step": "When Выбираем виджет настроек",
+                  "type": "FAILED",
+                  "throwable": {
+                    "detailMessage": "When Выбираем виджет настроек",
+                    "cause": {
+                      "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
+                      "detailMessage": "org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'misha', ip: '192.168.33.2', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'\nDriver info: driver.version: unknown",
+                      "cause": {
+                        "@class": "org.openqa.selenium.NoSuchElementException",
+                        "@defined-in": "java.lang.Throwable",
+                        "detailMessage": "Timed out after 2 seconds. Element not found",
+                        "stackTrace": [
+                          "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
+                          "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
+                          "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:312)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                          "net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:947)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:497)",
+                          "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
+                          "com.sun.proxy.$Proxy23.click(Unknown Source)",
+                          "ru.pankov.pages.GmailPage.clickEdit1(GmailPage.java:42)",
+                          "ru.pankov.steps.serenity.EndUserSteps.enterEditButtonVidget(EndUserSteps.java:23)",
+                          "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.CGLIB$enterEditButtonVidget$12(<generated>)",
+                          "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c$$FastClassByCGLIB$$4bfaaa8b.invoke(<generated>)",
+                          "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                          "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                          "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                          "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                          "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                          "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                          "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.enterEditButtonVidget(<generated>)",
+                          "ru.pankov.steps.EmailSteps.whenTheUserClickEditButtonVidget(EmailSteps.java:36)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                          "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                          "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                          "java.lang.reflect.Method.invoke(Method.java:497)",
+                          "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                          "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                          "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                          "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                          "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                          "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                          "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                          "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                          "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                          "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                          "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                          "java.lang.Thread.run(Thread.java:745)"
+                        ],
+                        "suppressedExceptions": [
+                          [],
+                          []
+                        ],
+                        "extraInfo": [
+                          [
+                            "Driver info",
+                            "driver.version: unknown"
+                          ]
+                        ]
+                      },
+                      "stackTrace": [
+                        "net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.enterEditButtonVidget(<generated>)",
+                        "ru.pankov.steps.EmailSteps.whenTheUserClickEditButtonVidget(EmailSteps.java:36)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:497)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "suppressedExceptions": [
+                        [],
+                        []
+                      ],
+                      "detailedMessage": "Timed out after 2 seconds. Element not found\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'misha', ip: '192.168.33.2', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'\nDriver info: driver.version: unknown",
+                      "stackTrace": [
+                        "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
+                        "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
+                        "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:312)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                        "net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:947)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:497)",
+                        "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
+                        "com.sun.proxy.$Proxy23.click(Unknown Source)",
+                        "ru.pankov.pages.GmailPage.clickEdit1(GmailPage.java:42)",
+                        "ru.pankov.steps.serenity.EndUserSteps.enterEditButtonVidget(EndUserSteps.java:23)",
+                        "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.CGLIB$enterEditButtonVidget$12(<generated>)",
+                        "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c$$FastClassByCGLIB$$4bfaaa8b.invoke(<generated>)",
+                        "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                        "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                        "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                        "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                        "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                        "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                        "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.enterEditButtonVidget(<generated>)",
+                        "ru.pankov.steps.EmailSteps.whenTheUserClickEditButtonVidget(EmailSteps.java:36)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                        "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                        "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                        "java.lang.reflect.Method.invoke(Method.java:497)",
+                        "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                        "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                        "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                        "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                        "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                        "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                        "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                        "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                        "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                        "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                        "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                        "java.lang.Thread.run(Thread.java:745)"
+                      ],
+                      "exceptionClass": "org.openqa.selenium.NoSuchElementException"
+                    },
+                    "stackTrace": [
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "uuid": "44752bc9-6971-43a7-82d7-20173d3b486e"
+                  },
+                  "parametrisedStep": "When Выбираем виджет настроек",
+                  "durationInMillis": 5154
+                },
+                {
+                  "step": "When Выбираем вкладку НАСТРОЙКИ в выпадающем списке виджета настроек",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When Выбираем вкладку НАСТРОЙКИ в выпадающем списке виджета настроек",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "When Устанавливаем подпись в виде текущей даты",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When Устанавливаем подпись в виде текущей даты",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "When меняем чекбокс подписи",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When меняем чекбокс подписи",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "When Сохраняем изменения в настройках",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "When Сохраняем изменения в настройках",
+                  "durationInMillis": 0
+                },
+                {
+                  "step": "Then пишем письмо - адрессат: 'pankovtestaplana@gmail.com', текст письма : 'Serenity test',тема письма:'Тест аплана'",
+                  "type": "NOT_PERFORMED",
+                  "parametrisedStep": "Then пишем письмо - адрессат: 'pankovtestaplana@gmail.com', текст письма : 'Serenity test',тема письма:'Тест аплана'",
+                  "durationInMillis": 0
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "scenario description",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given пользователь на домашней странице Гугл",
+                "When пользователь переходит на страницу аутентификации почты",
+                "When вводим почту 'pankovtestaplana@gmail.com'",
+                "When вводим пароль от почты 'kracoz13' и авторизуемся",
+                "When Выбираем виджет настроек",
+                "When Выбираем вкладку НАСТРОЙКИ в выпадающем списке виджета настроек",
+                "When Устанавливаем подпись в виде текущей даты",
+                "When меняем чекбокс подписи",
+                "When Сохраняем изменения в настройках",
+                "Then пишем письмо - адрессат: 'pankovtestaplana@gmail.com', текст письма : 'Serenity test',тема письма:'Тест аплана'"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "FAILED"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 15939
+      },
+      "givenStory": false
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "title": "scenario description",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given пользователь на домашней странице Гугл",
+          "When пользователь переходит на страницу аутентификации почты",
+          "When вводим почту 'pankovtestaplana@gmail.com'",
+          "When вводим пароль от почты 'kracoz13' и авторизуемся",
+          "When Выбираем виджет настроек",
+          "When Выбираем вкладку НАСТРОЙКИ в выпадающем списке виджета настроек",
+          "When Устанавливаем подпись в виде текущей даты",
+          "When меняем чекбокс подписи",
+          "When Сохраняем изменения в настройках",
+          "Then пишем письмо - адрессат: 'pankovtestaplana@gmail.com', текст письма : 'Serenity test',тема письма:'Тест аплана'"
+        ]
+      },
+      "storyPath": "consult_dictionary/EndCourse.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given пользователь на домашней странице Гугл",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given пользователь на домашней странице Гугл",
+              "durationInMillis": 3364
+            },
+            {
+              "step": "When пользователь переходит на страницу аутентификации почты",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When пользователь переходит на страницу аутентификации почты",
+              "durationInMillis": 704
+            },
+            {
+              "step": "When вводим почту 'pankovtestaplana@gmail.com'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When вводим почту 'pankovtestaplana@gmail.com'",
+              "durationInMillis": 836
+            },
+            {
+              "step": "When вводим пароль от почты 'kracoz13' и авторизуемся",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When вводим пароль от почты 'kracoz13' и авторизуемся",
+              "durationInMillis": 4418
+            },
+            {
+              "step": "When Выбираем виджет настроек",
+              "type": "FAILED",
+              "throwable": {
+                "detailMessage": "When Выбираем виджет настроек",
+                "cause": {
+                  "@class": "net.serenitybdd.core.exceptions.SerenityManagedException",
+                  "detailMessage": "org.openqa.selenium.NoSuchElementException: Timed out after 2 seconds. Element not found\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'misha', ip: '192.168.33.2', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'\nDriver info: driver.version: unknown",
+                  "cause": {
+                    "@class": "org.openqa.selenium.NoSuchElementException",
+                    "@defined-in": "java.lang.Throwable",
+                    "detailMessage": "Timed out after 2 seconds. Element not found",
+                    "stackTrace": [
+                      "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
+                      "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
+                      "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:312)",
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                      "net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:947)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                      "java.lang.reflect.Method.invoke(Method.java:497)",
+                      "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
+                      "com.sun.proxy.$Proxy23.click(Unknown Source)",
+                      "ru.pankov.pages.GmailPage.clickEdit1(GmailPage.java:42)",
+                      "ru.pankov.steps.serenity.EndUserSteps.enterEditButtonVidget(EndUserSteps.java:23)",
+                      "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.CGLIB$enterEditButtonVidget$12(<generated>)",
+                      "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c$$FastClassByCGLIB$$4bfaaa8b.invoke(<generated>)",
+                      "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                      "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                      "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                      "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                      "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                      "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                      "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.enterEditButtonVidget(<generated>)",
+                      "ru.pankov.steps.EmailSteps.whenTheUserClickEditButtonVidget(EmailSteps.java:36)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                      "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                      "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                      "java.lang.reflect.Method.invoke(Method.java:497)",
+                      "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                      "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                      "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                      "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                      "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                      "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                      "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                      "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                      "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                      "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                      "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                      "java.lang.Thread.run(Thread.java:745)"
+                    ],
+                    "suppressedExceptions": [
+                      [],
+                      []
+                    ],
+                    "extraInfo": [
+                      [
+                        "Driver info",
+                        "driver.version: unknown"
+                      ]
+                    ]
+                  },
+                  "stackTrace": [
+                    "net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.enterEditButtonVidget(<generated>)",
+                    "ru.pankov.steps.EmailSteps.whenTheUserClickEditButtonVidget(EmailSteps.java:36)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:497)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "suppressedExceptions": [
+                    [],
+                    []
+                  ],
+                  "detailedMessage": "Timed out after 2 seconds. Element not found\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'\nSystem info: host: 'misha', ip: '192.168.33.2', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_51'\nDriver info: driver.version: unknown",
+                  "stackTrace": [
+                    "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:150)",
+                    "net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:102)",
+                    "net.serenitybdd.core.pages.WebElementResolverByElementLocator.resolveForDriver(WebElementResolverByElementLocator.java:27)",
+                    "net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:176)",
+                    "net.serenitybdd.core.pages.WebElementFacadeImpl.withTimeoutOf(WebElementFacadeImpl.java:312)",
+                    "net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:708)",
+                    "net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:947)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:497)",
+                    "net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)",
+                    "com.sun.proxy.$Proxy23.click(Unknown Source)",
+                    "ru.pankov.pages.GmailPage.clickEdit1(GmailPage.java:42)",
+                    "ru.pankov.steps.serenity.EndUserSteps.enterEditButtonVidget(EndUserSteps.java:23)",
+                    "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.CGLIB$enterEditButtonVidget$12(<generated>)",
+                    "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c$$FastClassByCGLIB$$4bfaaa8b.invoke(<generated>)",
+                    "net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)",
+                    "net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)",
+                    "net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)",
+                    "net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)",
+                    "net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)",
+                    "net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)",
+                    "ru.pankov.steps.serenity.EndUserSteps$$EnhancerByCGLIB$$b485767c.enterEditButtonVidget(<generated>)",
+                    "ru.pankov.steps.EmailSteps.whenTheUserClickEditButtonVidget(EmailSteps.java:36)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+                    "sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+                    "sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+                    "java.lang.reflect.Method.invoke(Method.java:497)",
+                    "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)",
+                    "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                    "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                    "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                    "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                    "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                    "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                    "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                    "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                    "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                    "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                    "java.lang.Thread.run(Thread.java:745)"
+                  ],
+                  "exceptionClass": "org.openqa.selenium.NoSuchElementException"
+                },
+                "stackTrace": [
+                  "org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:617)",
+                  "org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableSteps.perform(PerformableTree.java:1072)",
+                  "org.jbehave.core.embedder.PerformableTree$AbstractPerformableScenario.performRestartableSteps(PerformableTree.java:938)",
+                  "org.jbehave.core.embedder.PerformableTree$NormalPerformableScenario.perform(PerformableTree.java:977)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableScenario.perform(PerformableTree.java:887)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.performScenarios(PerformableTree.java:811)",
+                  "org.jbehave.core.embedder.PerformableTree$PerformableStory.perform(PerformableTree.java:784)",
+                  "org.jbehave.core.embedder.PerformableTree.performCancellable(PerformableTree.java:416)",
+                  "org.jbehave.core.embedder.PerformableTree.perform(PerformableTree.java:387)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:291)",
+                  "org.jbehave.core.embedder.StoryManager$EnqueuedStory.call(StoryManager.java:265)",
+                  "java.util.concurrent.FutureTask.run(FutureTask.java:266)",
+                  "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)",
+                  "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)",
+                  "java.lang.Thread.run(Thread.java:745)"
+                ],
+                "suppressedExceptions": [
+                  [],
+                  []
+                ],
+                "uuid": "44752bc9-6971-43a7-82d7-20173d3b486e"
+              },
+              "parametrisedStep": "When Выбираем виджет настроек",
+              "durationInMillis": 5154
+            },
+            {
+              "step": "When Выбираем вкладку НАСТРОЙКИ в выпадающем списке виджета настроек",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When Выбираем вкладку НАСТРОЙКИ в выпадающем списке виджета настроек",
+              "durationInMillis": 0
+            },
+            {
+              "step": "When Устанавливаем подпись в виде текущей даты",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When Устанавливаем подпись в виде текущей даты",
+              "durationInMillis": 0
+            },
+            {
+              "step": "When меняем чекбокс подписи",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When меняем чекбокс подписи",
+              "durationInMillis": 0
+            },
+            {
+              "step": "When Сохраняем изменения в настройках",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "When Сохраняем изменения в настройках",
+              "durationInMillis": 0
+            },
+            {
+              "step": "Then пишем письмо - адрессат: 'pankovtestaplana@gmail.com', текст письма : 'Serenity test',тема письма:'Тест аплана'",
+              "type": "NOT_PERFORMED",
+              "parametrisedStep": "Then пишем письмо - адрессат: 'pankovtestaplana@gmail.com', текст письма : 'Serenity test',тема письма:'Тест аплана'",
+              "durationInMillis": 0
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "scenario description",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given пользователь на домашней странице Гугл",
+            "When пользователь переходит на страницу аутентификации почты",
+            "When вводим почту 'pankovtestaplana@gmail.com'",
+            "When вводим пароль от почты 'kracoz13' и авторизуемся",
+            "When Выбираем виджет настроек",
+            "When Выбираем вкладку НАСТРОЙКИ в выпадающем списке виджета настроек",
+            "When Устанавливаем подпись в виде текущей даты",
+            "When меняем чекбокс подписи",
+            "When Сохраняем изменения в настройках",
+            "Then пишем письмо - адрессат: 'pankovtestaplana@gmail.com', текст письма : 'Serenity test',тема письма:'Тест аплана'"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "FAILED"
+    }
+  ]
+}}
